@@ -1,0 +1,2 @@
+homepage.link.menu = {\"locator\":\"css=a[title='%s']\",\"desc\":\"menu homepage locator\"}
+homepage.link.submenu = {\"locator\":\"xpath=//span[text()='%s']\",\"desc\":\"subcategory\"}

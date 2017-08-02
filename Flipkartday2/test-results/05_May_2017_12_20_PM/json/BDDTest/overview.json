@@ -1,0 +1,35 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 0,
+  "skip": 1,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.Scenario"
+  ],
+  "envInfo": {
+    "browser-actual-capabilities": {},
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "8",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "01-Sep-2016 17:50:25"
+    },
+    "run-parameters": {
+      "resources": "resources",
+      "scenario.file.loc": "scenarios/suite1.bdd",
+      "baseurl": "https://www.flipkart.com/"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_111",
+      "os.arch": "amd64",
+      "host": "ICPL11484",
+      "os.name": "Windows 8",
+      "user.name": "rajeswari.allu",
+      "os.version": "6.2"
+    }
+  },
+  "startTime": 1493967053125,
+  "endTime": 1493967053750
+}

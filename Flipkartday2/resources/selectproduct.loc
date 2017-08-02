@@ -1,0 +1,1 @@
+selectproduct.link = {\"locator\":\"xpath=//p[text()=\\\"%s\\\"]\",\"desc\":\"selecting ipad\"}

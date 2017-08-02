@@ -1,0 +1,2791 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "getCurrentWindowHandle",
+      "args": [
+        "{}"
+      ],
+      "result": "CDwindow-d7dc9c08-c309-4543-80fa-cc87da8e191a",
+      "subLogs": [],
+      "duration": 4
+    },
+    {
+      "commandName": "get",
+      "args": [
+        "{url=https://www.flipkart.com/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 7279
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=a[title='Electronics'], using=css selector}"
+      ],
+      "result": "id: 0.6749422684431079-1",
+      "subLogs": [],
+      "duration": 36
+    },
+    {
+      "commandName": "mouseMoveTo",
+      "args": [
+        "{element=0.6749422684431079-1}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 55
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//span[text()='Apple'], using=xpath}"
+      ],
+      "result": "[id: 0.6749422684431079-2]",
+      "subLogs": [],
+      "duration": 44
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//span[text()='Apple'], using=xpath}"
+      ],
+      "result": "id: 0.6749422684431079-2",
+      "subLogs": [],
+      "duration": 44
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //span[text()='Apple']",
+        "{\"id\":\"0.6749422684431079-2\"}"
+      ],
+      "result": "isElementDisplayed:false",
+      "subLogs": [],
+      "duration": 57
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//span[text()='Apple'], using=xpath}"
+      ],
+      "result": "[id: 0.6749422684431079-2]",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//span[text()='Apple'], using=xpath}"
+      ],
+      "result": "id: 0.6749422684431079-2",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //span[text()='Apple']",
+        "{\"id\":\"0.6749422684431079-2\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//span[text()='Apple'], using=xpath}"
+      ],
+      "result": "id: 0.6749422684431079-2",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //span[text()='Apple']",
+        "{\"id\":\"0.6749422684431079-2\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 106
+    },
+    {
+      "commandName": "getCurrentWindowHandle",
+      "args": [
+        "{}"
+      ],
+      "result": "CDwindow-d7dc9c08-c309-4543-80fa-cc87da8e191a",
+      "subLogs": [],
+      "duration": 7
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//p[text()=\"iPad\"], using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//p[text()=\"iPad\"]\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 53 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir6500_25432}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: 92a8cbbf7e0b8a507ef0a0f25d451a35\n*** Element info: {Using=xpath, value=//p[text()=\"iPad\"]}",
+      "subLogs": [],
+      "duration": 55
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//p[text()=\"iPad\"], using=xpath}"
+      ],
+      "result": "id: 0.6749422684431079-3",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //p[text()=\"iPad\"]",
+        "{\"id\":\"0.6749422684431079-3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 3025
+    },
+    {
+      "commandName": "getCurrentWindowHandle",
+      "args": [
+        "{}"
+      ],
+      "result": "CDwindow-d7dc9c08-c309-4543-80fa-cc87da8e191a",
+      "subLogs": [],
+      "duration": 6
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "Apple Tablet/iPads - Buy Apple Tab Online at Best Prices In India | Flipkart.com",
+      "subLogs": [],
+      "duration": 245
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=._1UoZlX, using=css selector}"
+      ],
+      "result": "[id: 0.28370719872336814-1, id: 0.28370719872336814-2, id: 0.28370719872336814-3, id: 0.28370719872336814-4, id: 0.28370719872336814-5, id: 0.28370719872336814-6, id: 0.28370719872336814-7, id: 0.28370719872336814-8, id: 0.28370719872336814-9, id: 0.28370719872336814-10, id: 0.28370719872336814-11, id: 0.28370719872336814-12, id: 0.28370719872336814-13, id: 0.28370719872336814-14, id: 0.28370719872336814-15, id: 0.28370719872336814-16, id: 0.28370719872336814-17, id: 0.28370719872336814-18, id: 0.28370719872336814-19, id: 0.28370719872336814-20, id: 0.28370719872336814-21, id: 0.28370719872336814-22, id: 0.28370719872336814-23, id: 0.28370719872336814-24, id: 0.28370719872336814-25, id: 0.28370719872336814-26, id: 0.28370719872336814-27, id: 0.28370719872336814-28, id: 0.28370719872336814-29, id: 0.28370719872336814-30, id: 0.28370719872336814-31, id: 0.28370719872336814-32, id: 0.28370719872336814-33, id: 0.28370719872336814-34, id: 0.28370719872336814-35, id: 0.28370719872336814-36, id: 0.28370719872336814-37, id: 0.28370719872336814-38, id: 0.28370719872336814-39, id: 0.28370719872336814-40, id: 0.28370719872336814-41, id: 0.28370719872336814-42, id: 0.28370719872336814-43, id: 0.28370719872336814-44, id: 0.28370719872336814-45, id: 0.28370719872336814-46, id: 0.28370719872336814-47, id: 0.28370719872336814-48, id: 0.28370719872336814-49, id: 0.28370719872336814-50, id: 0.28370719872336814-51, id: 0.28370719872336814-52]",
+      "subLogs": [],
+      "duration": 577
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-1\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-53]",
+      "subLogs": [],
+      "duration": 661
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-53\"}"
+      ],
+      "result": "getElementText:Apple iPad 32 GB 9.7 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-1\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-54]",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-54\"}"
+      ],
+      "result": "getElementText:₹27,900",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-2\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-55]",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-55\"}"
+      ],
+      "result": "getElementText:Apple iPad 32 GB 9.7 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-2\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-56]",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-56\"}"
+      ],
+      "result": "getElementText:₹27,900",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-3\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-57]",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-57\"}"
+      ],
+      "result": "getElementText:Apple iPad 32 GB 9.7 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-3\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-58]",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-58\"}"
+      ],
+      "result": "getElementText:₹27,900",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-4\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-59]",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-59\"}"
+      ],
+      "result": "getElementText:Apple iPad 128 GB 9.7 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-4\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-60]",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-60\"}"
+      ],
+      "result": "getElementText:₹46,900",
+      "subLogs": [],
+      "duration": 37
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-5\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-61]",
+      "subLogs": [],
+      "duration": 38
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-61\"}"
+      ],
+      "result": "getElementText:Apple iPad Pro 32 GB 9.7 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-5\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-62]",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-62\"}"
+      ],
+      "result": "getElementText:₹58,805",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-6\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-63]",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-63\"}"
+      ],
+      "result": "getElementText:Apple iPad 32 GB 9.7 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-6\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-64]",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-64\"}"
+      ],
+      "result": "getElementText:₹38,900",
+      "subLogs": [],
+      "duration": 37
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-7\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-65]",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-65\"}"
+      ],
+      "result": "getElementText:Apple iPad Pro 128 GB 9.7 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-7\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-66]",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-66\"}"
+      ],
+      "result": "getElementText:₹66,405",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-8\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-67]",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-67\"}"
+      ],
+      "result": "getElementText:Apple mini 4 32 GB 7.9 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-8\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-68]",
+      "subLogs": [],
+      "duration": 35
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-68\"}"
+      ],
+      "result": "getElementText:₹41,900",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-9\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-69]",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-69\"}"
+      ],
+      "result": "getElementText:Apple iPad Pro 32 GB 9.7 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-9\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-70]",
+      "subLogs": [],
+      "duration": 49
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-70\"}"
+      ],
+      "result": "getElementText:₹58,805",
+      "subLogs": [],
+      "duration": 47
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-10\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-71]",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-71\"}"
+      ],
+      "result": "getElementText:Apple iPad mini 4 16 GB 7.9 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-10\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-72]",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-72\"}"
+      ],
+      "result": "getElementText:₹28,900",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-11\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-73]",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-73\"}"
+      ],
+      "result": "getElementText:Apple iPad mini 3 128 GB 7.9 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-11\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-74]",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-74\"}"
+      ],
+      "result": "getElementText:₹42,900",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-12\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-75]",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-75\"}"
+      ],
+      "result": "getElementText:Apple iPad Pro 32 GB 9.7 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-12\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-76]",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-76\"}"
+      ],
+      "result": "getElementText:₹47,405",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-13\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-77]",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-77\"}"
+      ],
+      "result": "getElementText:Apple iPad Pro 128 GB 9.7 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-13\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-78]",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-78\"}"
+      ],
+      "result": "getElementText:₹55,005",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-14\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-79]",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-79\"}"
+      ],
+      "result": "getElementText:Apple iPad Air 2 16 GB 9.7 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-14\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-80]",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-80\"}"
+      ],
+      "result": "getElementText:₹41,900",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-15\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-81]",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-81\"}"
+      ],
+      "result": "getElementText:Apple iPad Pro 32 GB 9.7 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-15\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-82]",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-82\"}"
+      ],
+      "result": "getElementText:₹47,405",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-16\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-83]",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-83\"}"
+      ],
+      "result": "getElementText:Apple iPad Pro 128 GB 9.7 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-16\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-84]",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-84\"}"
+      ],
+      "result": "getElementText:₹55,005",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-17\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-85]",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-85\"}"
+      ],
+      "result": "getElementText:Apple iPad Pro 32 GB 9.7 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 35
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-17\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-86]",
+      "subLogs": [],
+      "duration": 34
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-86\"}"
+      ],
+      "result": "getElementText:₹58,805",
+      "subLogs": [],
+      "duration": 38
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-18\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-87]",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-87\"}"
+      ],
+      "result": "getElementText:Apple iPad Pro 32 GB 9.7 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-18\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-88]",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-88\"}"
+      ],
+      "result": "getElementText:₹47,405",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-19\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-89]",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-89\"}"
+      ],
+      "result": "getElementText:Apple iPad Pro 32 GB 9.7 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-19\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-90]",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-90\"}"
+      ],
+      "result": "getElementText:₹58,805",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-20\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-91]",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-91\"}"
+      ],
+      "result": "getElementText:Apple iPad Pro 32 GB 9.7 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-20\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-92]",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-92\"}"
+      ],
+      "result": "getElementText:₹47,405",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-21\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-93]",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-93\"}"
+      ],
+      "result": "getElementText:Apple iPad 128 GB 9.7 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 37
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-21\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-94]",
+      "subLogs": [],
+      "duration": 42
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-94\"}"
+      ],
+      "result": "getElementText:₹46,900",
+      "subLogs": [],
+      "duration": 41
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-22\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-95]",
+      "subLogs": [],
+      "duration": 34
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-95\"}"
+      ],
+      "result": "getElementText:Apple iPad 128 GB 9.7 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 38
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-22\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-96]",
+      "subLogs": [],
+      "duration": 34
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-96\"}"
+      ],
+      "result": "getElementText:₹46,900",
+      "subLogs": [],
+      "duration": 40
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-23\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-97]",
+      "subLogs": [],
+      "duration": 38
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-97\"}"
+      ],
+      "result": "getElementText:Apple iPad Air 2 32 GB 9.7 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-23\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-98]",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-98\"}"
+      ],
+      "result": "getElementText:₹31,300",
+      "subLogs": [],
+      "duration": 36
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-24\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-99]",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-99\"}"
+      ],
+      "result": "getElementText:Apple iPad Air 2 64 GB with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-24\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-100]",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-100\"}"
+      ],
+      "result": "getElementText:₹48,499",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-25\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-101]",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-101\"}"
+      ],
+      "result": "getElementText:Apple iPad Air 2 16 GB 9.7 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 37
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-25\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-102]",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-102\"}"
+      ],
+      "result": "getElementText:₹38,499",
+      "subLogs": [],
+      "duration": 53
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-26\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-103]",
+      "subLogs": [],
+      "duration": 39
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-103\"}"
+      ],
+      "result": "getElementText:Apple iPad Air 2 16 GB 9.7 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 46
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-26\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-104]",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-104\"}"
+      ],
+      "result": "getElementText:₹30,499",
+      "subLogs": [],
+      "duration": 36
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-27\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-105]",
+      "subLogs": [],
+      "duration": 37
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-105\"}"
+      ],
+      "result": "getElementText:Apple mini 4 32 GB 7.9 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 34
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-27\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-106]",
+      "subLogs": [],
+      "duration": 36
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-106\"}"
+      ],
+      "result": "getElementText:₹31,900",
+      "subLogs": [],
+      "duration": 38
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-28\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-107]",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-107\"}"
+      ],
+      "result": "getElementText:Apple mini 4 32 GB 7.9 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-28\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-108]",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-108\"}"
+      ],
+      "result": "getElementText:₹30,499",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-29\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-109]",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-109\"}"
+      ],
+      "result": "getElementText:Apple iPad Air 2 64 GB with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-29\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-110]",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-110\"}"
+      ],
+      "result": "getElementText:₹43,900",
+      "subLogs": [],
+      "duration": 40
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-30\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-111]",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-111\"}"
+      ],
+      "result": "getElementText:Apple iPad mini 4 16 GB 7.9 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 35
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-30\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-112]",
+      "subLogs": [],
+      "duration": 37
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-112\"}"
+      ],
+      "result": "getElementText:₹37,000",
+      "subLogs": [],
+      "duration": 45
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-31\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-113]",
+      "subLogs": [],
+      "duration": 41
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-113\"}"
+      ],
+      "result": "getElementText:Apple iPad Air 2 16 GB 9.7 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 41
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-31\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-114]",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-114\"}"
+      ],
+      "result": "getElementText:₹29,899",
+      "subLogs": [],
+      "duration": 34
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-32\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-115]",
+      "subLogs": [],
+      "duration": 35
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-115\"}"
+      ],
+      "result": "getElementText:Apple mini 4 32 GB 7.9 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 46
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-32\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-116]",
+      "subLogs": [],
+      "duration": 35
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-116\"}"
+      ],
+      "result": "getElementText:₹30,900",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-33\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-117]",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-117\"}"
+      ],
+      "result": "getElementText:Apple iPad mini 4 64 GB 7.9 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 35
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-33\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-118]",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-118\"}"
+      ],
+      "result": "getElementText:₹45,900",
+      "subLogs": [],
+      "duration": 41
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-34\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-119]",
+      "subLogs": [],
+      "duration": 35
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-119\"}"
+      ],
+      "result": "getElementText:Apple iPad mini 3 16 GB 7.9 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-34\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-120]",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-120\"}"
+      ],
+      "result": "getElementText:₹37,450",
+      "subLogs": [],
+      "duration": 37
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-35\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-121]",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-121\"}"
+      ],
+      "result": "getElementText:Apple iPad Air 2 16 GB 9.7 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 34
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-35\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-122]",
+      "subLogs": [],
+      "duration": 34
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-122\"}"
+      ],
+      "result": "getElementText:₹37,900",
+      "subLogs": [],
+      "duration": 41
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-36\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-123]",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-123\"}"
+      ],
+      "result": "getElementText:Apple iPad Air 2 16 GB 9.7 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-36\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-124]",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-124\"}"
+      ],
+      "result": "getElementText:₹31,899",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-37\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-125]",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-125\"}"
+      ],
+      "result": "getElementText:Apple iPad Air 2 16 GB 9.7 inch with Wi-Fi+3G",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-37\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-126]",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-126\"}"
+      ],
+      "result": "getElementText:₹38,990",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-38\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-127]",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-127\"}"
+      ],
+      "result": "getElementText:Apple Air 2 32 GB 9.7 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-38\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-128]",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-128\"}"
+      ],
+      "result": "getElementText:₹41,499",
+      "subLogs": [],
+      "duration": 34
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-39\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-129]",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-129\"}"
+      ],
+      "result": "getElementText:Apple iPad Air 2 16 GB 9.7 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 36
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-39\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-130]",
+      "subLogs": [],
+      "duration": 37
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-130\"}"
+      ],
+      "result": "getElementText:₹31,499",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-40\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-131]",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-131\"}"
+      ],
+      "result": "getElementText:Apple iPad mini 4 16 GB 7.9 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-40\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-132]",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-132\"}"
+      ],
+      "result": "getElementText:₹38,499",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-41\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-133]",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-133\"}"
+      ],
+      "result": "getElementText:Apple 64GB iPad with Wi-Fi (3rd Generation)",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-41\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-134]",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-134\"}"
+      ],
+      "result": "getElementText:₹38,599",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-42\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-135]",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-135\"}"
+      ],
+      "result": "getElementText:Apple iPad Air 2 128 GB 9.7 inch with Wi-Fi+3G",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-42\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-136]",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-136\"}"
+      ],
+      "result": "getElementText:₹49,499",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-43\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-137]",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-137\"}"
+      ],
+      "result": "getElementText:Apple iPad Air 2 64 GB 9.7 inch with Wi-Fi+3G",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-43\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-138]",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-138\"}"
+      ],
+      "result": "getElementText:₹47,999",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-44\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-139]",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-139\"}"
+      ],
+      "result": "getElementText:Apple Air 2 32 GB 9.7 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-44\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-140]",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-140\"}"
+      ],
+      "result": "getElementText:₹41,499",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-45\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-141]",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-141\"}"
+      ],
+      "result": "getElementText:Apple iPad 128 GB 9.7 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-45\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-142]",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-142\"}"
+      ],
+      "result": "getElementText:₹35,900",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-46\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-143]",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-143\"}"
+      ],
+      "result": "getElementText:Apple iPad mini 4 64 GB 7.9 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-46\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-144]",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-144\"}"
+      ],
+      "result": "getElementText:₹45,899",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-47\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-145]",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-145\"}"
+      ],
+      "result": "getElementText:Apple iPad mini 3 16 GB 7.9 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-47\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-146]",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-146\"}"
+      ],
+      "result": "getElementText:₹37,450",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-48\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-147]",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-147\"}"
+      ],
+      "result": "getElementText:Apple mini 4 32 GB 7.9 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-48\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-148]",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-148\"}"
+      ],
+      "result": "getElementText:₹35,000",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-49\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-149]",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-149\"}"
+      ],
+      "result": "getElementText:Apple iPad mini 3 16 GB 7.9 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-49\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-150]",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-150\"}"
+      ],
+      "result": "getElementText:₹38,850",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-50\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-151]",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-151\"}"
+      ],
+      "result": "getElementText:Apple iPad Air 2 32 GB 9.7 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-50\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-152]",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-152\"}"
+      ],
+      "result": "getElementText:₹31,900",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-51\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-153]",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-153\"}"
+      ],
+      "result": "getElementText:Apple iPad Pro 128 GB 9.7 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-51\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-154]",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-154\"}"
+      ],
+      "result": "getElementText:₹57,900",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-52\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-155]",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.28370719872336814-155\"}"
+      ],
+      "result": "getElementText:Apple iPad 128 GB 9.7 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.28370719872336814-52\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElements:[id: 0.28370719872336814-156]",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.28370719872336814-156\"}"
+      ],
+      "result": "getElementText:₹35,900",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getCurrentWindowHandle",
+      "args": [
+        "{}"
+      ],
+      "result": "CDwindow-d7dc9c08-c309-4543-80fa-cc87da8e191a",
+      "subLogs": [],
+      "duration": 2
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//li[text()='Price -- Low to High'], using=xpath}"
+      ],
+      "result": "id: 0.28370719872336814-157",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //li[text()='Price -- Low to High']",
+        "{\"id\":\"0.28370719872336814-157\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 182
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@id='container']/div/div[2]/div[2]/div/div[2]/div/div[3]/div/div/div[1]/a/div[2]/div[1]/div[1], using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@id='container']/div/div[2]/div[2]/div/div[2]/div/div[3]/div/div/div[1]/a/div[2]/div[1]/div[1]\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 35 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir6500_25432}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: 92a8cbbf7e0b8a507ef0a0f25d451a35\n*** Element info: {Using=xpath, value=//div[@id='container']/div/div[2]/div[2]/div/div[2]/div/div[3]/div/div/div[1]/a/div[2]/div[1]/div[1]}",
+      "subLogs": [],
+      "duration": 35
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@id='container']/div/div[2]/div[2]/div/div[2]/div/div[3]/div/div/div[1]/a/div[2]/div[1]/div[1], using=xpath}"
+      ],
+      "result": "id: 0.28370719872336814-158",
+      "subLogs": [],
+      "duration": 125
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@id='container']/div/div[2]/div[2]/div/div[2]/div/div[3]/div/div/div[1]/a/div[2]/div[1]/div[1]",
+        "{\"id\":\"0.28370719872336814-158\"}"
+      ],
+      "result": "getElementText:Apple iPad 32 GB 9.7 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@id='container']/div/div[2]/div[2]/div/div[2]/div/div[3]/div/div/div[1]/a/div[2]/div[1]/div[4]/ul/li, using=xpath}"
+      ],
+      "result": "[id: 0.28370719872336814-159, id: 0.28370719872336814-160, id: 0.28370719872336814-161, id: 0.28370719872336814-162, id: 0.28370719872336814-163, id: 0.28370719872336814-164]",
+      "subLogs": [],
+      "duration": 46
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@id='container']/div/div[2]/div[2]/div/div[2]/div/div[3]/div/div/div[1]/a/div[2]/div[1]/div[4]/ul/li",
+        "{\"id\":\"0.28370719872336814-159\"}"
+      ],
+      "result": "getElementText:9.7 Retina display for stunning detail",
+      "subLogs": [],
+      "duration": 36
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@id='container']/div/div[2]/div[2]/div/div[2]/div/div[3]/div/div/div[1]/a/div[2]/div[1]/div[4]/ul/li",
+        "{\"id\":\"0.28370719872336814-160\"}"
+      ],
+      "result": "getElementText:32 GB ROM Can Store Upto 8000 Photos",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@id='container']/div/div[2]/div[2]/div/div[2]/div/div[3]/div/div/div[1]/a/div[2]/div[1]/div[4]/ul/li",
+        "{\"id\":\"0.28370719872336814-161\"}"
+      ],
+      "result": "getElementText:8 MP Primary Camera | 1.2 MP Front",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@id='container']/div/div[2]/div[2]/div/div[2]/div/div[3]/div/div/div[1]/a/div[2]/div[1]/div[4]/ul/li",
+        "{\"id\":\"0.28370719872336814-162\"}"
+      ],
+      "result": "getElementText:iOS 10 World's Most Advanced OS",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@id='container']/div/div[2]/div[2]/div/div[2]/div/div[3]/div/div/div[1]/a/div[2]/div[1]/div[4]/ul/li",
+        "{\"id\":\"0.28370719872336814-163\"}"
+      ],
+      "result": "getElementText:Battery: Lithium Polymer Upto 10 hours of Multimedia Usage",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@id='container']/div/div[2]/div[2]/div/div[2]/div/div[3]/div/div/div[1]/a/div[2]/div[1]/div[4]/ul/li",
+        "{\"id\":\"0.28370719872336814-164\"}"
+      ],
+      "result": "getElementText:1 Year on Tablet, 6 Months on Accessories",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@id='container']/div/div[2]/div[2]/div/div[2]/div/div[3]/div/div/div[1]/a/div[2]/div[1]/div[1], using=xpath}"
+      ],
+      "result": "id: 0.28370719872336814-158",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //div[@id='container']/div/div[2]/div[2]/div/div[2]/div/div[3]/div/div/div[1]/a/div[2]/div[1]/div[1]",
+        "{\"id\":\"0.28370719872336814-158\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 226
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='_12-hHd']/descendant::button[1], using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='_12-hHd']/descendant::button[1]\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 65 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir6500_25432}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: 92a8cbbf7e0b8a507ef0a0f25d451a35\n*** Element info: {Using=xpath, value=//div[@class='_12-hHd']/descendant::button[1]}",
+      "subLogs": [],
+      "duration": 65
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='_12-hHd']/descendant::button[1], using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='_12-hHd']/descendant::button[1]\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 12 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir6500_25432}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: 92a8cbbf7e0b8a507ef0a0f25d451a35\n*** Element info: {Using=xpath, value=//div[@class='_12-hHd']/descendant::button[1]}",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='_12-hHd']/descendant::button[1], using=xpath}"
+      ],
+      "result": "id: 0.28370719872336814-165",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //div[@class='_12-hHd']/descendant::button[1]",
+        "{\"id\":\"0.28370719872336814-165\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 96
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[text()='Apple iPad 32 GB 9.7 inch with Wi-Fi Only'], using=xpath}"
+      ],
+      "result": "id: 0.28370719872336814-166",
+      "subLogs": [],
+      "duration": 76
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //a[text()='Apple iPad 32 GB 9.7 inch with Wi-Fi Only']",
+        "{\"id\":\"0.28370719872336814-166\"}"
+      ],
+      "result": "getElementText:Apple iPad 32 GB 9.7 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 43
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@class='_3NFO0d']/span, using=xpath}"
+      ],
+      "result": "id: 0.28370719872336814-167",
+      "subLogs": [],
+      "duration": 139
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@class='_3NFO0d']/span, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class='_3NFO0d']/span\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 966 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir6500_25432}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: 92a8cbbf7e0b8a507ef0a0f25d451a35\n*** Element info: {Using=xpath, value=//a[@class='_3NFO0d']/span}",
+      "subLogs": [],
+      "duration": 966
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@class='_3NFO0d']/span, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class='_3NFO0d']/span\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 18 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir6500_25432}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: 92a8cbbf7e0b8a507ef0a0f25d451a35\n*** Element info: {Using=xpath, value=//a[@class='_3NFO0d']/span}",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@class='_3NFO0d']/span, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class='_3NFO0d']/span\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 9 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir6500_25432}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: 92a8cbbf7e0b8a507ef0a0f25d451a35\n*** Element info: {Using=xpath, value=//a[@class='_3NFO0d']/span}",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@class='_3NFO0d']/span, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class='_3NFO0d']/span\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 10 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir6500_25432}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: 92a8cbbf7e0b8a507ef0a0f25d451a35\n*** Element info: {Using=xpath, value=//a[@class='_3NFO0d']/span}",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@class='_3NFO0d']/span, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class='_3NFO0d']/span\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 8 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir6500_25432}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: 92a8cbbf7e0b8a507ef0a0f25d451a35\n*** Element info: {Using=xpath, value=//a[@class='_3NFO0d']/span}",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@class='_3NFO0d']/span, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class='_3NFO0d']/span\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 11 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir6500_25432}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: 92a8cbbf7e0b8a507ef0a0f25d451a35\n*** Element info: {Using=xpath, value=//a[@class='_3NFO0d']/span}",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@class='_3NFO0d']/span, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class='_3NFO0d']/span\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 8 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir6500_25432}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: 92a8cbbf7e0b8a507ef0a0f25d451a35\n*** Element info: {Using=xpath, value=//a[@class='_3NFO0d']/span}",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@class='_3NFO0d']/span, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class='_3NFO0d']/span\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 11 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir6500_25432}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: 92a8cbbf7e0b8a507ef0a0f25d451a35\n*** Element info: {Using=xpath, value=//a[@class='_3NFO0d']/span}",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@class='_3NFO0d']/span, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class='_3NFO0d']/span\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 17 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir6500_25432}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: 92a8cbbf7e0b8a507ef0a0f25d451a35\n*** Element info: {Using=xpath, value=//a[@class='_3NFO0d']/span}",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@class='_3NFO0d']/span, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class='_3NFO0d']/span\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 9 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir6500_25432}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: 92a8cbbf7e0b8a507ef0a0f25d451a35\n*** Element info: {Using=xpath, value=//a[@class='_3NFO0d']/span}",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@class='_3NFO0d']/span, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class='_3NFO0d']/span\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 21 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir6500_25432}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: 92a8cbbf7e0b8a507ef0a0f25d451a35\n*** Element info: {Using=xpath, value=//a[@class='_3NFO0d']/span}",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@class='_3NFO0d']/span, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class='_3NFO0d']/span\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 9 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir6500_25432}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: 92a8cbbf7e0b8a507ef0a0f25d451a35\n*** Element info: {Using=xpath, value=//a[@class='_3NFO0d']/span}",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@class='_3NFO0d']/span, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class='_3NFO0d']/span\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 10 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir6500_25432}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: 92a8cbbf7e0b8a507ef0a0f25d451a35\n*** Element info: {Using=xpath, value=//a[@class='_3NFO0d']/span}",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@class='_3NFO0d']/span, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class='_3NFO0d']/span\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 17 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir6500_25432}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: 92a8cbbf7e0b8a507ef0a0f25d451a35\n*** Element info: {Using=xpath, value=//a[@class='_3NFO0d']/span}",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@class='_3NFO0d']/span, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class='_3NFO0d']/span\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 23 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir6500_25432}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: 92a8cbbf7e0b8a507ef0a0f25d451a35\n*** Element info: {Using=xpath, value=//a[@class='_3NFO0d']/span}",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@class='_3NFO0d']/span, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class='_3NFO0d']/span\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 18 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir6500_25432}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: 92a8cbbf7e0b8a507ef0a0f25d451a35\n*** Element info: {Using=xpath, value=//a[@class='_3NFO0d']/span}",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@class='_3NFO0d']/span, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class='_3NFO0d']/span\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 13 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir6500_25432}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: 92a8cbbf7e0b8a507ef0a0f25d451a35\n*** Element info: {Using=xpath, value=//a[@class='_3NFO0d']/span}",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@class='_3NFO0d']/span, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class='_3NFO0d']/span\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 14 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir6500_25432}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: 92a8cbbf7e0b8a507ef0a0f25d451a35\n*** Element info: {Using=xpath, value=//a[@class='_3NFO0d']/span}",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@class='_3NFO0d']/span, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class='_3NFO0d']/span\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 15 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir6500_25432}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: 92a8cbbf7e0b8a507ef0a0f25d451a35\n*** Element info: {Using=xpath, value=//a[@class='_3NFO0d']/span}",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@class='_3NFO0d']/span, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class='_3NFO0d']/span\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 16 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir6500_25432}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: 92a8cbbf7e0b8a507ef0a0f25d451a35\n*** Element info: {Using=xpath, value=//a[@class='_3NFO0d']/span}",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@class='_3NFO0d']/span, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class='_3NFO0d']/span\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 9 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir6500_25432}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: 92a8cbbf7e0b8a507ef0a0f25d451a35\n*** Element info: {Using=xpath, value=//a[@class='_3NFO0d']/span}",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@class='_3NFO0d']/span, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class='_3NFO0d']/span\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 12 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir6500_25432}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: 92a8cbbf7e0b8a507ef0a0f25d451a35\n*** Element info: {Using=xpath, value=//a[@class='_3NFO0d']/span}",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@class='_3NFO0d']/span, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class='_3NFO0d']/span\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 10 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir6500_25432}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: 92a8cbbf7e0b8a507ef0a0f25d451a35\n*** Element info: {Using=xpath, value=//a[@class='_3NFO0d']/span}",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@class='_3NFO0d']/span, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class='_3NFO0d']/span\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 14 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir6500_25432}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: 92a8cbbf7e0b8a507ef0a0f25d451a35\n*** Element info: {Using=xpath, value=//a[@class='_3NFO0d']/span}",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@class='_3NFO0d']/span, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class='_3NFO0d']/span\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 8 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir6500_25432}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: 92a8cbbf7e0b8a507ef0a0f25d451a35\n*** Element info: {Using=xpath, value=//a[@class='_3NFO0d']/span}",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@class='_3NFO0d']/span, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class='_3NFO0d']/span\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 16 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir6500_25432}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: 92a8cbbf7e0b8a507ef0a0f25d451a35\n*** Element info: {Using=xpath, value=//a[@class='_3NFO0d']/span}",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@class='_3NFO0d']/span, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class='_3NFO0d']/span\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 11 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir6500_25432}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: 92a8cbbf7e0b8a507ef0a0f25d451a35\n*** Element info: {Using=xpath, value=//a[@class='_3NFO0d']/span}",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@class='_3NFO0d']/span, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class='_3NFO0d']/span\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 16 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir6500_25432}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: 92a8cbbf7e0b8a507ef0a0f25d451a35\n*** Element info: {Using=xpath, value=//a[@class='_3NFO0d']/span}",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@class='_3NFO0d']/span, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class='_3NFO0d']/span\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 8 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir6500_25432}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: 92a8cbbf7e0b8a507ef0a0f25d451a35\n*** Element info: {Using=xpath, value=//a[@class='_3NFO0d']/span}",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@class='_3NFO0d']/span, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class='_3NFO0d']/span\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 11 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir6500_25432}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: 92a8cbbf7e0b8a507ef0a0f25d451a35\n*** Element info: {Using=xpath, value=//a[@class='_3NFO0d']/span}",
+      "subLogs": [],
+      "duration": 11
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "flipkarthomepage should display properly\nExpected: a string containing \"Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart\"\n     Actual: was \"Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart\"",
+      "type": "Pass",
+      "screenshot": "img/Testproductorderflow_n1vxl3v36ej31241.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple phone page shouldbe displayed properly\nExpected: a string containing \"Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart\"\n     Actual: was \"Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart\"",
+      "type": "Pass",
+      "screenshot": "img/Testproductorderflow_1ctas1m0c1vgz31242.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple ipad page shouldbe displayed properly\nExpected: a string containing \"Apple Tablet/iPads - Buy Apple Tab Online at Best Prices In India | Flipkart.com\"\n     Actual: was \"Apple Tablet/iPads - Buy Apple Tab Online at Best Prices In India | Flipkart.com\"",
+      "type": "Pass",
+      "screenshot": "img/Testproductorderflow_95qkottqhnom31243.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Timed out after 30 seconds waiting for presence of element located by: By.xpath: //a[@class='_3NFO0d']/span\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: driver.version: QAFExtendedWebDriver",
+      "type": "Fail",
+      "screenshot": "img/Testproductorderflow_13sj4h7o10ixe31244.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for presence of element located by: By.xpath: //a[@class='_3NFO0d']/span\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: driver.version: QAFExtendedWebDriver\r\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.load(QAFExtendedWebDriver.java:203)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.load(QAFExtendedWebElement.java:253)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.getId(QAFExtendedWebElement.java:263)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.onFailure(QAFExtendedWebElement.java:425)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:229)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)\r\n\tat com.flipkartday2.Page.AddtocartTestPage.verifyCart(AddtocartTestPage.java:98)\r\n\tat com.flipkartday2.Test.Productorder.Testproductorderflow(Productorder.java:29)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:714)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:741)\r\n\tat org.testng.TestRunner.run(TestRunner.java:595)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:334)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:240)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1149)\r\n\tat org.testng.TestNG.run(TestNG.java:1057)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)\r\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class='_3NFO0d']/span\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 11 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir6500_25432}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: 92a8cbbf7e0b8a507ef0a0f25d451a35\n*** Element info: {Using=xpath, value=//a[@class='_3NFO0d']/span}\r\n\tat sun.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:223)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElementByXPath(QAFExtendedWebDriver.java:381)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElementByXPath(QAFExtendedWebDriver.java:1)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:158)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:1)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:899)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:178)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)\r\n\t... 32 more\r\n"
+}

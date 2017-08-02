@@ -1,0 +1,7 @@
+lowHighTab = {\"locator\":\"xpath=//li[text()='Price -- Low to High']\"}
+NameOfMobile = {\"locator\":\"xpath=//div[@id='container']/div/div[2]/div[2]/div/div[2]/div/div[3]/div/div/div[1]/a/div[2]/div[1]/div[1]\"}
+FeatureOfmobile = {\"locator\":\"xpath=//div[@id='container']/div/div[2]/div[2]/div/div[2]/div/div[3]/div/div/div[1]/a/div[2]/div[1]/div[4]/ul/li\"}
+BuyNowTab = {\"locator\":\"xpath=//span[@class='_1JEC3n']\"}
+AddToCartTab = {\"locator\":\"css=._2AkmmA._3Plo8Q._19RW-r\"}
+Carttab = {\"locator\":\"xpath=//a[@class='_3NFO0d']/span\"}
+mobileInCart = {\"locator\":\"xpath=//a[text()='Apple iPad 32 GB 9.7 inch with Wi-Fi Only']\"}

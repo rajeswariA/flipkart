@@ -1,0 +1,106 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "getCurrentWindowHandle",
+      "args": [
+        "{}"
+      ],
+      "result": "CDwindow-18267300-1168-4f25-9e29-51c75f215e1d",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "get",
+      "args": [
+        "{url=https://www.flipkart.com/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 8552
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=a[title='Electronics'], using=css selector}"
+      ],
+      "result": "id: 0.2614381873659921-1",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "mouseMoveTo",
+      "args": [
+        "{element=0.2614381873659921-1}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 72
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//span[text()='Apple'], using=xpath}"
+      ],
+      "result": "[id: 0.2614381873659921-2]",
+      "subLogs": [],
+      "duration": 140
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//span[text()='Apple'], using=xpath}"
+      ],
+      "result": "id: 0.2614381873659921-2",
+      "subLogs": [],
+      "duration": 51
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //span[text()='Apple']",
+        "{\"id\":\"0.2614381873659921-2\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//span[text()='Apple'], using=xpath}"
+      ],
+      "result": "id: 0.2614381873659921-2",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //span[text()='Apple']",
+        "{\"id\":\"0.2614381873659921-2\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 169
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "\nExpected: equalToIgnoringCase(\"Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart\")\n     Actual: was www.flipkart.com",
+      "type": "Fail",
+      "screenshot": "img/Testproductorderflow_1tp7ksngf5bvs8559.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

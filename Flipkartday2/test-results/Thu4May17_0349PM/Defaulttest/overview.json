@@ -1,0 +1,65 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0,
+  "classes": [
+    "com.flipkartday2.Test.Productorder"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "browserName": "chrome",
+      "takesScreenshot": true,
+      "javascriptEnabled": true,
+      "version": "",
+      "platform": "ANY",
+      "cssSelectorsEnabled": true
+    },
+    "browser-actual-capabilities": {
+      "applicationCacheEnabled": "false",
+      "rotatable": "false",
+      "mobileEmulationEnabled": "false",
+      "networkConnectionEnabled": "false",
+      "chrome": "{chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir3604_1866}",
+      "takesHeapSnapshot": "true",
+      "pageLoadStrategy": "normal",
+      "databaseEnabled": "false",
+      "handlesAlerts": "true",
+      "hasTouchScreen": "false",
+      "version": "58.0.3029.96",
+      "platform": "WIN8",
+      "browserConnectionEnabled": "false",
+      "nativeEvents": "true",
+      "acceptSslCerts": "true",
+      "locationContextEnabled": "true",
+      "webStorageEnabled": "true",
+      "browserName": "chrome",
+      "takesScreenshot": "true",
+      "javascriptEnabled": "true",
+      "cssSelectorsEnabled": "true",
+      "unexpectedAlertBehaviour": ""
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "8",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "01-Sep-2016 17:50:25"
+    },
+    "run-parameters": {
+      "baseurl": "https://www.flipkart.com/",
+      "resources": "resources"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_111",
+      "os.arch": "amd64",
+      "host": "ICPL11484",
+      "os.name": "Windows 8",
+      "user.name": "rajeswari.allu",
+      "os.version": "6.2"
+    }
+  },
+  "startTime": 1493893180587,
+  "endTime": 1493893202071
+}

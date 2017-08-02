@@ -1,0 +1,142 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "setupSuit",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1493901815577,
+      "duration": 26,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "setupTest",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1493901815631,
+      "duration": 1,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "setup",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1493901815668,
+      "duration": 4,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "setupMethod",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1493901815705,
+      "duration": 1,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Checking product",
+        "groups": [
+          "SMOKE"
+        ],
+        "name": "Testproductorderflow",
+        "sign": "Productorder.Testproductorderflow()[pri:0, instance:com.flipkartday2.Test.Productorder@2de8284b]"
+      },
+      "dependsOn": [],
+      "startTime": 1493901815757,
+      "duration": 58832,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "afterMethod",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1493901874860,
+      "duration": 1,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "afterClass",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1493901874885,
+      "duration": 0,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "afterTest",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1493901874893,
+      "duration": 833,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "afterSuit",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1493901875788,
+      "duration": 1,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

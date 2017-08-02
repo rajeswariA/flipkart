@@ -1,0 +1,90 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "FlipkartOrderVerification",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1493986409525,
+      "duration": 1,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "FlipkartOrderVerificationPFp",
+        "name": "FlipkartOrderVerification",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1493986409537,
+      "duration": 1,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "flipkartverification with different products",
+        "groups": [
+          "P1",
+          "P2",
+          "SMOKE"
+        ],
+        "lineNo": 3.0,
+        "name": "FlipkartOrderVerification",
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "FlipkartOrderVerificationiGQ",
+        "sign": "scenarios.suite1.bdd.FlipkartOrderVerification()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1493986409549,
+      "duration": 70732,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "FlipkartOrderVerificationlIn",
+        "name": "FlipkartOrderVerification",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1493986480789,
+      "duration": 1,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "FlipkartOrderVerificationECD",
+        "name": "FlipkartOrderVerification",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1493986480832,
+      "duration": 1,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

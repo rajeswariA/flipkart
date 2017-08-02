@@ -1,0 +1,2740 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "getCurrentWindowHandle",
+      "args": [
+        "{}"
+      ],
+      "result": "CDwindow-24f27f47-5c11-4b8c-bfeb-5b14af4dbde1",
+      "subLogs": [],
+      "duration": 4
+    },
+    {
+      "commandName": "get",
+      "args": [
+        "{url=https://www.flipkart.com/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 14368
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=a[title='Electronics'], using=css selector}"
+      ],
+      "result": "id: 0.7741135397839285-1",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "mouseMoveTo",
+      "args": [
+        "{element=0.7741135397839285-1}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//span[text()='Apple'], using=xpath}"
+      ],
+      "result": "[id: 0.7741135397839285-2]",
+      "subLogs": [],
+      "duration": 52
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//span[text()='Apple'], using=xpath}"
+      ],
+      "result": "id: 0.7741135397839285-2",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //span[text()='Apple']",
+        "{\"id\":\"0.7741135397839285-2\"}"
+      ],
+      "result": "isElementDisplayed:false",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//span[text()='Apple'], using=xpath}"
+      ],
+      "result": "[id: 0.7741135397839285-2]",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//span[text()='Apple'], using=xpath}"
+      ],
+      "result": "id: 0.7741135397839285-2",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //span[text()='Apple']",
+        "{\"id\":\"0.7741135397839285-2\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//span[text()='Apple'], using=xpath}"
+      ],
+      "result": "id: 0.7741135397839285-2",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //span[text()='Apple']",
+        "{\"id\":\"0.7741135397839285-2\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 89
+    },
+    {
+      "commandName": "getCurrentWindowHandle",
+      "args": [
+        "{}"
+      ],
+      "result": "CDwindow-24f27f47-5c11-4b8c-bfeb-5b14af4dbde1",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart",
+      "subLogs": [],
+      "duration": 6
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//p[text()=\"iPad\"], using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//p[text()=\"iPad\"]\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 185 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir8088_16459}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: 41be4a3794fc413b39befa9efcefb35e\n*** Element info: {Using=xpath, value=//p[text()=\"iPad\"]}",
+      "subLogs": [],
+      "duration": 187
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//p[text()=\"iPad\"], using=xpath}"
+      ],
+      "result": "id: 0.7741135397839285-3",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //p[text()=\"iPad\"]",
+        "{\"id\":\"0.7741135397839285-3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 5627
+    },
+    {
+      "commandName": "getCurrentWindowHandle",
+      "args": [
+        "{}"
+      ],
+      "result": "CDwindow-24f27f47-5c11-4b8c-bfeb-5b14af4dbde1",
+      "subLogs": [],
+      "duration": 5
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "Apple Tablet/iPads - Buy Apple Tab Online at Best Prices In India | Flipkart.com",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=._1UoZlX, using=css selector}"
+      ],
+      "result": "[id: 0.04232695460950353-1, id: 0.04232695460950353-2, id: 0.04232695460950353-3, id: 0.04232695460950353-4, id: 0.04232695460950353-5, id: 0.04232695460950353-6, id: 0.04232695460950353-7, id: 0.04232695460950353-8, id: 0.04232695460950353-9, id: 0.04232695460950353-10, id: 0.04232695460950353-11, id: 0.04232695460950353-12, id: 0.04232695460950353-13, id: 0.04232695460950353-14, id: 0.04232695460950353-15, id: 0.04232695460950353-16, id: 0.04232695460950353-17, id: 0.04232695460950353-18, id: 0.04232695460950353-19, id: 0.04232695460950353-20, id: 0.04232695460950353-21, id: 0.04232695460950353-22, id: 0.04232695460950353-23, id: 0.04232695460950353-24, id: 0.04232695460950353-25, id: 0.04232695460950353-26, id: 0.04232695460950353-27, id: 0.04232695460950353-28, id: 0.04232695460950353-29, id: 0.04232695460950353-30, id: 0.04232695460950353-31, id: 0.04232695460950353-32, id: 0.04232695460950353-33, id: 0.04232695460950353-34, id: 0.04232695460950353-35, id: 0.04232695460950353-36, id: 0.04232695460950353-37, id: 0.04232695460950353-38, id: 0.04232695460950353-39, id: 0.04232695460950353-40, id: 0.04232695460950353-41, id: 0.04232695460950353-42, id: 0.04232695460950353-43, id: 0.04232695460950353-44, id: 0.04232695460950353-45, id: 0.04232695460950353-46, id: 0.04232695460950353-47, id: 0.04232695460950353-48, id: 0.04232695460950353-49, id: 0.04232695460950353-50, id: 0.04232695460950353-51, id: 0.04232695460950353-52, id: 0.04232695460950353-53, id: 0.04232695460950353-54, id: 0.04232695460950353-55]",
+      "subLogs": [],
+      "duration": 37
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=._1UoZlX, using=css selector}"
+      ],
+      "result": "[id: 0.04232695460950353-1, id: 0.04232695460950353-2, id: 0.04232695460950353-3, id: 0.04232695460950353-4, id: 0.04232695460950353-5, id: 0.04232695460950353-6, id: 0.04232695460950353-7, id: 0.04232695460950353-8, id: 0.04232695460950353-9, id: 0.04232695460950353-10, id: 0.04232695460950353-11, id: 0.04232695460950353-12, id: 0.04232695460950353-13, id: 0.04232695460950353-14, id: 0.04232695460950353-15, id: 0.04232695460950353-16, id: 0.04232695460950353-17, id: 0.04232695460950353-18, id: 0.04232695460950353-19, id: 0.04232695460950353-20, id: 0.04232695460950353-21, id: 0.04232695460950353-22, id: 0.04232695460950353-23, id: 0.04232695460950353-24, id: 0.04232695460950353-25, id: 0.04232695460950353-26, id: 0.04232695460950353-27, id: 0.04232695460950353-28, id: 0.04232695460950353-29, id: 0.04232695460950353-30, id: 0.04232695460950353-31, id: 0.04232695460950353-32, id: 0.04232695460950353-33, id: 0.04232695460950353-34, id: 0.04232695460950353-35, id: 0.04232695460950353-36, id: 0.04232695460950353-37, id: 0.04232695460950353-38, id: 0.04232695460950353-39, id: 0.04232695460950353-40, id: 0.04232695460950353-41, id: 0.04232695460950353-42, id: 0.04232695460950353-43, id: 0.04232695460950353-44, id: 0.04232695460950353-45, id: 0.04232695460950353-46, id: 0.04232695460950353-47, id: 0.04232695460950353-48, id: 0.04232695460950353-49, id: 0.04232695460950353-50, id: 0.04232695460950353-51, id: 0.04232695460950353-52, id: 0.04232695460950353-53, id: 0.04232695460950353-54, id: 0.04232695460950353-55]",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-1\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.04232695460950353-56]",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-1\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-56",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-56\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=._1UoZlX, using=css selector}"
+      ],
+      "result": "[id: 0.04232695460950353-1, id: 0.04232695460950353-2, id: 0.04232695460950353-3, id: 0.04232695460950353-4, id: 0.04232695460950353-5, id: 0.04232695460950353-6, id: 0.04232695460950353-7, id: 0.04232695460950353-8, id: 0.04232695460950353-9, id: 0.04232695460950353-10, id: 0.04232695460950353-11, id: 0.04232695460950353-12, id: 0.04232695460950353-13, id: 0.04232695460950353-14, id: 0.04232695460950353-15, id: 0.04232695460950353-16, id: 0.04232695460950353-17, id: 0.04232695460950353-18, id: 0.04232695460950353-19, id: 0.04232695460950353-20, id: 0.04232695460950353-21, id: 0.04232695460950353-22, id: 0.04232695460950353-23, id: 0.04232695460950353-24, id: 0.04232695460950353-25, id: 0.04232695460950353-26, id: 0.04232695460950353-27, id: 0.04232695460950353-28, id: 0.04232695460950353-29, id: 0.04232695460950353-30, id: 0.04232695460950353-31, id: 0.04232695460950353-32, id: 0.04232695460950353-33, id: 0.04232695460950353-34, id: 0.04232695460950353-35, id: 0.04232695460950353-36, id: 0.04232695460950353-37, id: 0.04232695460950353-38, id: 0.04232695460950353-39, id: 0.04232695460950353-40, id: 0.04232695460950353-41, id: 0.04232695460950353-42, id: 0.04232695460950353-43, id: 0.04232695460950353-44, id: 0.04232695460950353-45, id: 0.04232695460950353-46, id: 0.04232695460950353-47, id: 0.04232695460950353-48, id: 0.04232695460950353-49, id: 0.04232695460950353-50, id: 0.04232695460950353-51, id: 0.04232695460950353-52, id: 0.04232695460950353-53, id: 0.04232695460950353-54, id: 0.04232695460950353-55]",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-1\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-56",
+      "subLogs": [],
+      "duration": 35
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-56\"}"
+      ],
+      "result": "getElementText:Apple iPad 32 GB 9.7 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 53
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-1\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-57",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-57\"}"
+      ],
+      "result": "getElementText:₹28,900",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-2\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-58",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-58\"}"
+      ],
+      "result": "getElementText:Apple iPad 32 GB 9.7 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-2\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-59",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-59\"}"
+      ],
+      "result": "getElementText:₹28,900",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-3\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-60",
+      "subLogs": [],
+      "duration": 60
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-60\"}"
+      ],
+      "result": "getElementText:Apple iPad 32 GB 9.7 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 46
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-3\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-61",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-61\"}"
+      ],
+      "result": "getElementText:₹28,900",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-4\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-62",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-62\"}"
+      ],
+      "result": "getElementText:Apple iPad Pro 32 GB 9.7 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-4\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-63",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-63\"}"
+      ],
+      "result": "getElementText:₹61,900",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-5\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-64",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-64\"}"
+      ],
+      "result": "getElementText:Apple iPad mini 3 128 GB 7.9 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-5\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-65",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-65\"}"
+      ],
+      "result": "getElementText:₹42,900",
+      "subLogs": [],
+      "duration": 34
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-6\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-66",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-66\"}"
+      ],
+      "result": "getElementText:Apple iPad 128 GB 9.7 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 38
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-6\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-67",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-67\"}"
+      ],
+      "result": "getElementText:₹47,900",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-7\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-68",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-68\"}"
+      ],
+      "result": "getElementText:Apple mini 4 32 GB 7.9 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-7\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-69",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-69\"}"
+      ],
+      "result": "getElementText:₹31,900",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-8\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-70",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-70\"}"
+      ],
+      "result": "getElementText:Apple iPad Pro 128 GB 9.7 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-8\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-71",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-71\"}"
+      ],
+      "result": "getElementText:₹57,900",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-9\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-72",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-72\"}"
+      ],
+      "result": "getElementText:Apple iPad Air 2 16 GB 9.7 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-9\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-73",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-73\"}"
+      ],
+      "result": "getElementText:₹41,900",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-10\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-74",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-74\"}"
+      ],
+      "result": "getElementText:Apple iPad Pro 128 GB 9.7 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-10\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-75",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-75\"}"
+      ],
+      "result": "getElementText:₹49,900",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-11\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-76",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-76\"}"
+      ],
+      "result": "getElementText:Apple iPad Pro 32 GB 9.7 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-11\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-77",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-77\"}"
+      ],
+      "result": "getElementText:₹49,900",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-12\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-78",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-78\"}"
+      ],
+      "result": "getElementText:Apple iPad 128 GB 9.7 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-12\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-79",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-79\"}"
+      ],
+      "result": "getElementText:₹36,900",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-13\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-80",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-80\"}"
+      ],
+      "result": "getElementText:Apple iPad Pro 128 GB 9.7 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-13\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-81",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-81\"}"
+      ],
+      "result": "getElementText:₹57,900",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-14\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-82",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-82\"}"
+      ],
+      "result": "getElementText:Apple iPad Pro 32 GB 9.7 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-14\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-83",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-83\"}"
+      ],
+      "result": "getElementText:₹49,900",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-15\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-84",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-84\"}"
+      ],
+      "result": "getElementText:Apple mini 4 32 GB 7.9 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-15\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-85",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-85\"}"
+      ],
+      "result": "getElementText:₹41,900",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-16\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-86",
+      "subLogs": [],
+      "duration": 34
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-86\"}"
+      ],
+      "result": "getElementText:Apple iPad Pro 32 GB 9.7 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-16\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-87",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-87\"}"
+      ],
+      "result": "getElementText:₹61,900",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-17\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-88",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-88\"}"
+      ],
+      "result": "getElementText:Apple iPad Pro 32 GB 9.7 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-17\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-89",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-89\"}"
+      ],
+      "result": "getElementText:₹49,900",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-18\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-90",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-90\"}"
+      ],
+      "result": "getElementText:Apple iPad Pro 32 GB 9.7 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-18\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-91",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-91\"}"
+      ],
+      "result": "getElementText:₹61,900",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-19\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-92",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-92\"}"
+      ],
+      "result": "getElementText:Apple iPad mini 4 16 GB 7.9 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-19\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-93",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-93\"}"
+      ],
+      "result": "getElementText:₹28,900",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-20\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-94",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-94\"}"
+      ],
+      "result": "getElementText:Apple iPad Pro 32 GB 9.7 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-20\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-95",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-95\"}"
+      ],
+      "result": "getElementText:₹61,900",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-21\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-96",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-96\"}"
+      ],
+      "result": "getElementText:Apple iPad Pro 128 GB 9.7 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-21\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-97",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-97\"}"
+      ],
+      "result": "getElementText:₹57,900",
+      "subLogs": [],
+      "duration": 36
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-22\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-98",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-98\"}"
+      ],
+      "result": "getElementText:Apple iPad Pro 32 GB 9.7 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 35
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-22\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-99",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-99\"}"
+      ],
+      "result": "getElementText:₹49,900",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-23\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-100",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-100\"}"
+      ],
+      "result": "getElementText:Apple iPad 128 GB 9.7 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 35
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-23\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-101",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-101\"}"
+      ],
+      "result": "getElementText:₹47,900",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-24\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-102",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-102\"}"
+      ],
+      "result": "getElementText:Apple iPad 32 GB 9.7 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 37
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-24\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-103",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-103\"}"
+      ],
+      "result": "getElementText:₹39,900",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-25\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-104",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-104\"}"
+      ],
+      "result": "getElementText:Apple iPad 128 GB 9.7 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-25\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-105",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-105\"}"
+      ],
+      "result": "getElementText:₹47,900",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-26\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-106",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-106\"}"
+      ],
+      "result": "getElementText:Apple iPad Air 2 32 GB 9.7 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-26\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-107",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-107\"}"
+      ],
+      "result": "getElementText:₹31,300",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-27\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-108",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-108\"}"
+      ],
+      "result": "getElementText:Apple iPad Air 2 32 GB 9.7 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-27\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-109",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-109\"}"
+      ],
+      "result": "getElementText:₹31,895",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-28\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-110",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-110\"}"
+      ],
+      "result": "getElementText:Apple iPad Air 2 128 GB with Wi-Fi+3G",
+      "subLogs": [],
+      "duration": 35
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-28\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-111",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-111\"}"
+      ],
+      "result": "getElementText:₹49,604",
+      "subLogs": [],
+      "duration": 34
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-29\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-112",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-112\"}"
+      ],
+      "result": "getElementText:Apple iPad Air 2 16 GB 9.7 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-29\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-113",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-113\"}"
+      ],
+      "result": "getElementText:₹38,499",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-30\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-114",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-114\"}"
+      ],
+      "result": "getElementText:Apple mini 4 32 GB 7.9 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-30\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-115",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-115\"}"
+      ],
+      "result": "getElementText:₹30,499",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-31\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-116",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-116\"}"
+      ],
+      "result": "getElementText:Apple iPad Air 2 64 GB with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-31\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-117",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-117\"}"
+      ],
+      "result": "getElementText:₹43,900",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-32\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-118",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-118\"}"
+      ],
+      "result": "getElementText:Apple mini 4 32 GB 7.9 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-32\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-119",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-119\"}"
+      ],
+      "result": "getElementText:₹30,900",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-33\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-120",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-120\"}"
+      ],
+      "result": "getElementText:Apple iPad Air 2 16 GB 9.7 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-33\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-121",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-121\"}"
+      ],
+      "result": "getElementText:₹29,899",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-34\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-122",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-122\"}"
+      ],
+      "result": "getElementText:Apple iPad Air 2 16 GB 9.7 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-34\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-123",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-123\"}"
+      ],
+      "result": "getElementText:₹30,499",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-35\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-124",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-124\"}"
+      ],
+      "result": "getElementText:Apple Air 2 32 GB 9.7 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-35\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-125",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-125\"}"
+      ],
+      "result": "getElementText:₹41,499",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-36\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-126",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-126\"}"
+      ],
+      "result": "getElementText:Apple iPad mini 4 64 GB 7.9 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 34
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-36\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-127",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-127\"}"
+      ],
+      "result": "getElementText:₹45,900",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-37\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-128",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-128\"}"
+      ],
+      "result": "getElementText:Apple iPad Air 2 16 GB 9.7 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 44
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-37\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-129",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-129\"}"
+      ],
+      "result": "getElementText:₹37,900",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-38\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-130",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-130\"}"
+      ],
+      "result": "getElementText:Apple iPad mini 16 GB 7.9 inch with Wi-Fi+3G",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-38\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-131",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-131\"}"
+      ],
+      "result": "getElementText:₹26,500",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-39\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-132",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-132\"}"
+      ],
+      "result": "getElementText:Apple iPad mini 3 16 GB 7.9 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-39\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-133",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-133\"}"
+      ],
+      "result": "getElementText:₹37,450",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-40\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-134",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-134\"}"
+      ],
+      "result": "getElementText:Apple iPad Air 16 GB 9.7 inch with Wi-Fi+3G",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-40\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-135",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-135\"}"
+      ],
+      "result": "getElementText:₹37,500",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-41\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-136",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-136\"}"
+      ],
+      "result": "getElementText:Apple iPad Air 2 16 GB 9.7 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-41\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-137",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-137\"}"
+      ],
+      "result": "getElementText:₹31,899",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-42\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-138",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-138\"}"
+      ],
+      "result": "getElementText:Apple 64GB iPad with Wi-Fi (3rd Generation)",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-42\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-139",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-139\"}"
+      ],
+      "result": "getElementText:₹38,599",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-43\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-140",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-140\"}"
+      ],
+      "result": "getElementText:Apple iPad Air 2 64 GB with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-43\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-141",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-141\"}"
+      ],
+      "result": "getElementText:₹48,499",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-44\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-142",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-142\"}"
+      ],
+      "result": "getElementText:Apple iPad Air 2 16 GB 9.7 inch with Wi-Fi+3G",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-44\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-143",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-143\"}"
+      ],
+      "result": "getElementText:₹38,990",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-45\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-144",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-144\"}"
+      ],
+      "result": "getElementText:Apple 32GB iPad with Retina Display and Wi-Fi (4th Generation)",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-45\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-145",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-145\"}"
+      ],
+      "result": "getElementText:₹26,899",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-46\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-146",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-146\"}"
+      ],
+      "result": "getElementText:Apple iPad Air 2 128 GB 9.7 inch with Wi-Fi+3G",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-46\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-147",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-147\"}"
+      ],
+      "result": "getElementText:₹49,499",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-47\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-148",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-148\"}"
+      ],
+      "result": "getElementText:Apple iPad Air 2 16 GB 9.7 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-47\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-149",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-149\"}"
+      ],
+      "result": "getElementText:₹31,499",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-48\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-150",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-150\"}"
+      ],
+      "result": "getElementText:Apple iPad Air 2 64 GB 9.7 inch with Wi-Fi+3G",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-48\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-151",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-151\"}"
+      ],
+      "result": "getElementText:₹47,999",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-49\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-152",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-152\"}"
+      ],
+      "result": "getElementText:Apple iPad mini 4 16 GB 7.9 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-49\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-153",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-153\"}"
+      ],
+      "result": "getElementText:₹38,499",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-50\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-154",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-154\"}"
+      ],
+      "result": "getElementText:Apple Air 2 32 GB 9.7 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-50\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-155",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-155\"}"
+      ],
+      "result": "getElementText:₹41,499",
+      "subLogs": [],
+      "duration": 38
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-51\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-156",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-156\"}"
+      ],
+      "result": "getElementText:Apple iPad 128 GB 9.7 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-51\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-157",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-157\"}"
+      ],
+      "result": "getElementText:₹36,900",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-52\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-158",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-158\"}"
+      ],
+      "result": "getElementText:Apple mini 4 32 GB 7.9 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-52\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-159",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-159\"}"
+      ],
+      "result": "getElementText:₹35,000",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-53\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-160",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-160\"}"
+      ],
+      "result": "getElementText:Apple mini 4 32 GB 7.9 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-53\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-161",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-161\"}"
+      ],
+      "result": "getElementText:₹35,000",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-54\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-162",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-162\"}"
+      ],
+      "result": "getElementText:Apple iPad mini 3 16 GB 7.9 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-54\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-163",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-163\"}"
+      ],
+      "result": "getElementText:₹37,450",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-55\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-164",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-164\"}"
+      ],
+      "result": "getElementText:Apple iPad mini 3 16 GB 7.9 inch with Wi-Fi+4G",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-55\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-165",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-165\"}"
+      ],
+      "result": "getElementText:₹38,850",
+      "subLogs": [],
+      "duration": 36
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=._1UoZlX, using=css selector}"
+      ],
+      "result": "[id: 0.04232695460950353-1, id: 0.04232695460950353-2, id: 0.04232695460950353-3, id: 0.04232695460950353-4, id: 0.04232695460950353-5, id: 0.04232695460950353-6, id: 0.04232695460950353-7, id: 0.04232695460950353-8, id: 0.04232695460950353-9, id: 0.04232695460950353-10, id: 0.04232695460950353-11, id: 0.04232695460950353-12, id: 0.04232695460950353-13, id: 0.04232695460950353-14, id: 0.04232695460950353-15, id: 0.04232695460950353-16, id: 0.04232695460950353-17, id: 0.04232695460950353-18, id: 0.04232695460950353-19, id: 0.04232695460950353-20, id: 0.04232695460950353-21, id: 0.04232695460950353-22, id: 0.04232695460950353-23, id: 0.04232695460950353-24, id: 0.04232695460950353-25, id: 0.04232695460950353-26, id: 0.04232695460950353-27, id: 0.04232695460950353-28, id: 0.04232695460950353-29, id: 0.04232695460950353-30, id: 0.04232695460950353-31, id: 0.04232695460950353-32, id: 0.04232695460950353-33, id: 0.04232695460950353-34, id: 0.04232695460950353-35, id: 0.04232695460950353-36, id: 0.04232695460950353-37, id: 0.04232695460950353-38, id: 0.04232695460950353-39, id: 0.04232695460950353-40, id: 0.04232695460950353-41, id: 0.04232695460950353-42, id: 0.04232695460950353-43, id: 0.04232695460950353-44, id: 0.04232695460950353-45, id: 0.04232695460950353-46, id: 0.04232695460950353-47, id: 0.04232695460950353-48, id: 0.04232695460950353-49, id: 0.04232695460950353-50, id: 0.04232695460950353-51, id: 0.04232695460950353-52, id: 0.04232695460950353-53, id: 0.04232695460950353-54, id: 0.04232695460950353-55]",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-1\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-56",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-56\"}"
+      ],
+      "result": "getElementText:Apple iPad 32 GB 9.7 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=._1UoZlX, using=css selector}"
+      ],
+      "result": "[id: 0.04232695460950353-1, id: 0.04232695460950353-2, id: 0.04232695460950353-3, id: 0.04232695460950353-4, id: 0.04232695460950353-5, id: 0.04232695460950353-6, id: 0.04232695460950353-7, id: 0.04232695460950353-8, id: 0.04232695460950353-9, id: 0.04232695460950353-10, id: 0.04232695460950353-11, id: 0.04232695460950353-12, id: 0.04232695460950353-13, id: 0.04232695460950353-14, id: 0.04232695460950353-15, id: 0.04232695460950353-16, id: 0.04232695460950353-17, id: 0.04232695460950353-18, id: 0.04232695460950353-19, id: 0.04232695460950353-20, id: 0.04232695460950353-21, id: 0.04232695460950353-22, id: 0.04232695460950353-23, id: 0.04232695460950353-24, id: 0.04232695460950353-25, id: 0.04232695460950353-26, id: 0.04232695460950353-27, id: 0.04232695460950353-28, id: 0.04232695460950353-29, id: 0.04232695460950353-30, id: 0.04232695460950353-31, id: 0.04232695460950353-32, id: 0.04232695460950353-33, id: 0.04232695460950353-34, id: 0.04232695460950353-35, id: 0.04232695460950353-36, id: 0.04232695460950353-37, id: 0.04232695460950353-38, id: 0.04232695460950353-39, id: 0.04232695460950353-40, id: 0.04232695460950353-41, id: 0.04232695460950353-42, id: 0.04232695460950353-43, id: 0.04232695460950353-44, id: 0.04232695460950353-45, id: 0.04232695460950353-46, id: 0.04232695460950353-47, id: 0.04232695460950353-48, id: 0.04232695460950353-49, id: 0.04232695460950353-50, id: 0.04232695460950353-51, id: 0.04232695460950353-52, id: 0.04232695460950353-53, id: 0.04232695460950353-54, id: 0.04232695460950353-55]",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-1\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-57",
+      "subLogs": [],
+      "duration": 44
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.04232695460950353-57\"}"
+      ],
+      "result": "getElementText:₹28,900",
+      "subLogs": [],
+      "duration": 42
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=._1UoZlX, using=css selector}"
+      ],
+      "result": "[id: 0.04232695460950353-1, id: 0.04232695460950353-2, id: 0.04232695460950353-3, id: 0.04232695460950353-4, id: 0.04232695460950353-5, id: 0.04232695460950353-6, id: 0.04232695460950353-7, id: 0.04232695460950353-8, id: 0.04232695460950353-9, id: 0.04232695460950353-10, id: 0.04232695460950353-11, id: 0.04232695460950353-12, id: 0.04232695460950353-13, id: 0.04232695460950353-14, id: 0.04232695460950353-15, id: 0.04232695460950353-16, id: 0.04232695460950353-17, id: 0.04232695460950353-18, id: 0.04232695460950353-19, id: 0.04232695460950353-20, id: 0.04232695460950353-21, id: 0.04232695460950353-22, id: 0.04232695460950353-23, id: 0.04232695460950353-24, id: 0.04232695460950353-25, id: 0.04232695460950353-26, id: 0.04232695460950353-27, id: 0.04232695460950353-28, id: 0.04232695460950353-29, id: 0.04232695460950353-30, id: 0.04232695460950353-31, id: 0.04232695460950353-32, id: 0.04232695460950353-33, id: 0.04232695460950353-34, id: 0.04232695460950353-35, id: 0.04232695460950353-36, id: 0.04232695460950353-37, id: 0.04232695460950353-38, id: 0.04232695460950353-39, id: 0.04232695460950353-40, id: 0.04232695460950353-41, id: 0.04232695460950353-42, id: 0.04232695460950353-43, id: 0.04232695460950353-44, id: 0.04232695460950353-45, id: 0.04232695460950353-46, id: 0.04232695460950353-47, id: 0.04232695460950353-48, id: 0.04232695460950353-49, id: 0.04232695460950353-50, id: 0.04232695460950353-51, id: 0.04232695460950353-52, id: 0.04232695460950353-53, id: 0.04232695460950353-54, id: 0.04232695460950353-55]",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.04232695460950353-1\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.04232695460950353-56",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.04232695460950353-56\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 129
+    },
+    {
+      "commandName": "getCurrentWindowHandle",
+      "args": [
+        "{}"
+      ],
+      "result": "CDwindow-24f27f47-5c11-4b8c-bfeb-5b14af4dbde1",
+      "subLogs": [],
+      "duration": 2
+    },
+    {
+      "commandName": "getWindowHandles",
+      "args": [
+        "{}"
+      ],
+      "result": "[CDwindow-24f27f47-5c11-4b8c-bfeb-5b14af4dbde1, CDwindow-3e17feba-4e01-4a94-bb4a-0c8893767fae]",
+      "subLogs": [],
+      "duration": 96
+    },
+    {
+      "commandName": "getWindowHandles",
+      "args": [
+        "{}"
+      ],
+      "result": "[CDwindow-24f27f47-5c11-4b8c-bfeb-5b14af4dbde1, CDwindow-3e17feba-4e01-4a94-bb4a-0c8893767fae]",
+      "subLogs": [],
+      "duration": 4
+    },
+    {
+      "commandName": "switchToWindow",
+      "args": [
+        "{name=CDwindow-24f27f47-5c11-4b8c-bfeb-5b14af4dbde1}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 3
+    },
+    {
+      "commandName": "switchToWindow",
+      "args": [
+        "{name=CDwindow-3e17feba-4e01-4a94-bb4a-0c8893767fae}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 3
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=._3eAQiD, using=css selector}"
+      ],
+      "result": "[id: 0.38384164045261726-1]",
+      "subLogs": [],
+      "duration": 1084
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=._3eAQiD, using=css selector}"
+      ],
+      "result": "id: 0.38384164045261726-1",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.cssSelector: ._3eAQiD",
+        "{\"id\":\"0.38384164045261726-1\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=._3eAQiD, using=css selector}"
+      ],
+      "result": "id: 0.38384164045261726-1",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3eAQiD",
+        "{\"id\":\"0.38384164045261726-1\"}"
+      ],
+      "result": "getElementText:Apple iPad 32 GB 9.7 inch with Wi-Fi Only  (Gold)",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=._1vC4OE._37U4_g, using=css selector}"
+      ],
+      "result": "id: 0.38384164045261726-2",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._37U4_g",
+        "{\"id\":\"0.38384164045261726-2\"}"
+      ],
+      "result": "getElementText:₹28,900",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=._2AkmmA._3Plo8Q._19RW-r, using=css selector}"
+      ],
+      "result": "[id: 0.38384164045261726-3]",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=._2AkmmA._3Plo8Q._19RW-r, using=css selector}"
+      ],
+      "result": "id: 0.38384164045261726-3",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.cssSelector: ._2AkmmA._3Plo8Q._19RW-r",
+        "{\"id\":\"0.38384164045261726-3\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=._2AkmmA._3Plo8Q._19RW-r, using=css selector}"
+      ],
+      "result": "id: 0.38384164045261726-3",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.cssSelector: ._2AkmmA._3Plo8Q._19RW-r",
+        "{\"id\":\"0.38384164045261726-3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 169
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "flipkarthomepage should display properly\nExpected: a string containing \"Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart\"\n     Actual: was \"Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart\"",
+      "type": "Pass",
+      "screenshot": "img/Testproductorderflow_4d07qz26x8n046039.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple phone page shouldbe displayed properly\nExpected: a string containing \"Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart\"\n     Actual: was \"Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart\"",
+      "type": "Pass",
+      "screenshot": "img/Testproductorderflow_d5yb29j1ygn246040.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple ipad page shouldbe displayed properly\nExpected: a string containing \"Apple Tablet/iPads - Buy Apple Tab Online at Best Prices In India | Flipkart.com\"\n     Actual: was \"Apple Tablet/iPads - Buy Apple Tab Online at Best Prices In India | Flipkart.com\"",
+      "type": "Pass",
+      "screenshot": "img/Testproductorderflow_s0j64d9yrta46041.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "\nExpected: a value greater than &lt;0&gt;\n     Actual: &lt;55&gt; was greater than &lt;0&gt;",
+      "type": "Pass",
+      "screenshot": "img/Testproductorderflow_1bfsr1b12bobl46042.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "\nExpected: a string containing \"Apple iPad 32 GB 9.7 inch with Wi-Fi Only\"\n     Actual: was \"Apple iPad 32 GB 9.7 inch with Wi-Fi Only  (Gold)\"",
+      "type": "Pass",
+      "screenshot": "img/Testproductorderflow_mvqmphp1eswm46043.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "\nExpected: a string containing \"₹28,900\"\n     Actual: was \"₹28,900\"",
+      "type": "Pass",
+      "screenshot": "img/Testproductorderflow_izdn5evlf3rc46044.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

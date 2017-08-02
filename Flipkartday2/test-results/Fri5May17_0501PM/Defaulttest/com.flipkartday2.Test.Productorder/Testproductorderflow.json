@@ -1,0 +1,645 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "getCurrentWindowHandle",
+      "args": [
+        "{}"
+      ],
+      "result": "CDwindow-52026f96-ec1f-48d5-8bc2-4f3ff14ecc77",
+      "subLogs": [],
+      "duration": 3
+    },
+    {
+      "commandName": "get",
+      "args": [
+        "{url=https://www.flipkart.com/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 14767
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=a[title='Electronics'], using=css selector}"
+      ],
+      "result": "id: 0.011133609738490424-1",
+      "subLogs": [],
+      "duration": 49
+    },
+    {
+      "commandName": "mouseMoveTo",
+      "args": [
+        "{element=0.011133609738490424-1}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 112
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//span[text()='Apple'], using=xpath}"
+      ],
+      "result": "[id: 0.011133609738490424-2]",
+      "subLogs": [],
+      "duration": 218
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//span[text()='Apple'], using=xpath}"
+      ],
+      "result": "id: 0.011133609738490424-2",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //span[text()='Apple']",
+        "{\"id\":\"0.011133609738490424-2\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//span[text()='Apple'], using=xpath}"
+      ],
+      "result": "id: 0.011133609738490424-2",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //span[text()='Apple']",
+        "{\"id\":\"0.011133609738490424-2\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 117
+    },
+    {
+      "commandName": "getCurrentWindowHandle",
+      "args": [
+        "{}"
+      ],
+      "result": "CDwindow-52026f96-ec1f-48d5-8bc2-4f3ff14ecc77",
+      "subLogs": [],
+      "duration": 7
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart",
+      "subLogs": [],
+      "duration": 7
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//p[text()=\"iPad\"], using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//p[text()=\"iPad\"]\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 1.30 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir7604_5402}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: db884713a2ae628e5f2ff143480a1fad\n*** Element info: {Using=xpath, value=//p[text()=\"iPad\"]}",
+      "subLogs": [],
+      "duration": 1507
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//p[text()=\"iPad\"], using=xpath}"
+      ],
+      "result": "id: 0.011133609738490424-3",
+      "subLogs": [],
+      "duration": 2760
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //p[text()=\"iPad\"]",
+        "{\"id\":\"0.011133609738490424-3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 4057
+    },
+    {
+      "commandName": "getCurrentWindowHandle",
+      "args": [
+        "{}"
+      ],
+      "result": "CDwindow-52026f96-ec1f-48d5-8bc2-4f3ff14ecc77",
+      "subLogs": [],
+      "duration": 3
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "Apple Tablet/iPads - Buy Apple Tab Online at Best Prices In India | Flipkart.com",
+      "subLogs": [],
+      "duration": 168
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=._1UoZlX, using=css selector}"
+      ],
+      "result": "[id: 0.10571926665803844-1, id: 0.10571926665803844-2, id: 0.10571926665803844-3, id: 0.10571926665803844-4, id: 0.10571926665803844-5, id: 0.10571926665803844-6, id: 0.10571926665803844-7, id: 0.10571926665803844-8, id: 0.10571926665803844-9, id: 0.10571926665803844-10, id: 0.10571926665803844-11, id: 0.10571926665803844-12, id: 0.10571926665803844-13, id: 0.10571926665803844-14, id: 0.10571926665803844-15, id: 0.10571926665803844-16, id: 0.10571926665803844-17, id: 0.10571926665803844-18, id: 0.10571926665803844-19, id: 0.10571926665803844-20, id: 0.10571926665803844-21, id: 0.10571926665803844-22, id: 0.10571926665803844-23, id: 0.10571926665803844-24, id: 0.10571926665803844-25, id: 0.10571926665803844-26, id: 0.10571926665803844-27, id: 0.10571926665803844-28, id: 0.10571926665803844-29, id: 0.10571926665803844-30, id: 0.10571926665803844-31, id: 0.10571926665803844-32, id: 0.10571926665803844-33, id: 0.10571926665803844-34, id: 0.10571926665803844-35, id: 0.10571926665803844-36, id: 0.10571926665803844-37, id: 0.10571926665803844-38, id: 0.10571926665803844-39, id: 0.10571926665803844-40, id: 0.10571926665803844-41, id: 0.10571926665803844-42, id: 0.10571926665803844-43, id: 0.10571926665803844-44, id: 0.10571926665803844-45, id: 0.10571926665803844-46, id: 0.10571926665803844-47, id: 0.10571926665803844-48, id: 0.10571926665803844-49, id: 0.10571926665803844-50, id: 0.10571926665803844-51, id: 0.10571926665803844-52, id: 0.10571926665803844-53, id: 0.10571926665803844-54, id: 0.10571926665803844-55, id: 0.10571926665803844-56]",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=._1UoZlX, using=css selector}"
+      ],
+      "result": "[id: 0.10571926665803844-1, id: 0.10571926665803844-2, id: 0.10571926665803844-3, id: 0.10571926665803844-4, id: 0.10571926665803844-5, id: 0.10571926665803844-6, id: 0.10571926665803844-7, id: 0.10571926665803844-8, id: 0.10571926665803844-9, id: 0.10571926665803844-10, id: 0.10571926665803844-11, id: 0.10571926665803844-12, id: 0.10571926665803844-13, id: 0.10571926665803844-14, id: 0.10571926665803844-15, id: 0.10571926665803844-16, id: 0.10571926665803844-17, id: 0.10571926665803844-18, id: 0.10571926665803844-19, id: 0.10571926665803844-20, id: 0.10571926665803844-21, id: 0.10571926665803844-22, id: 0.10571926665803844-23, id: 0.10571926665803844-24, id: 0.10571926665803844-25, id: 0.10571926665803844-26, id: 0.10571926665803844-27, id: 0.10571926665803844-28, id: 0.10571926665803844-29, id: 0.10571926665803844-30, id: 0.10571926665803844-31, id: 0.10571926665803844-32, id: 0.10571926665803844-33, id: 0.10571926665803844-34, id: 0.10571926665803844-35, id: 0.10571926665803844-36, id: 0.10571926665803844-37, id: 0.10571926665803844-38, id: 0.10571926665803844-39, id: 0.10571926665803844-40, id: 0.10571926665803844-41, id: 0.10571926665803844-42, id: 0.10571926665803844-43, id: 0.10571926665803844-44, id: 0.10571926665803844-45, id: 0.10571926665803844-46, id: 0.10571926665803844-47, id: 0.10571926665803844-48, id: 0.10571926665803844-49, id: 0.10571926665803844-50, id: 0.10571926665803844-51, id: 0.10571926665803844-52, id: 0.10571926665803844-53, id: 0.10571926665803844-54, id: 0.10571926665803844-55, id: 0.10571926665803844-56]",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.10571926665803844-1\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElements:[id: 0.10571926665803844-57]",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.10571926665803844-1\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.10571926665803844-57",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.10571926665803844-57\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=._1UoZlX, using=css selector}"
+      ],
+      "result": "[id: 0.10571926665803844-1, id: 0.10571926665803844-2, id: 0.10571926665803844-3, id: 0.10571926665803844-4, id: 0.10571926665803844-5, id: 0.10571926665803844-6, id: 0.10571926665803844-7, id: 0.10571926665803844-8, id: 0.10571926665803844-9, id: 0.10571926665803844-10, id: 0.10571926665803844-11, id: 0.10571926665803844-12, id: 0.10571926665803844-13, id: 0.10571926665803844-14, id: 0.10571926665803844-15, id: 0.10571926665803844-16, id: 0.10571926665803844-17, id: 0.10571926665803844-18, id: 0.10571926665803844-19, id: 0.10571926665803844-20, id: 0.10571926665803844-21, id: 0.10571926665803844-22, id: 0.10571926665803844-23, id: 0.10571926665803844-24, id: 0.10571926665803844-25, id: 0.10571926665803844-26, id: 0.10571926665803844-27, id: 0.10571926665803844-28, id: 0.10571926665803844-29, id: 0.10571926665803844-30, id: 0.10571926665803844-31, id: 0.10571926665803844-32, id: 0.10571926665803844-33, id: 0.10571926665803844-34, id: 0.10571926665803844-35, id: 0.10571926665803844-36, id: 0.10571926665803844-37, id: 0.10571926665803844-38, id: 0.10571926665803844-39, id: 0.10571926665803844-40, id: 0.10571926665803844-41, id: 0.10571926665803844-42, id: 0.10571926665803844-43, id: 0.10571926665803844-44, id: 0.10571926665803844-45, id: 0.10571926665803844-46, id: 0.10571926665803844-47, id: 0.10571926665803844-48, id: 0.10571926665803844-49, id: 0.10571926665803844-50, id: 0.10571926665803844-51, id: 0.10571926665803844-52, id: 0.10571926665803844-53, id: 0.10571926665803844-54, id: 0.10571926665803844-55, id: 0.10571926665803844-56]",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=._1UoZlX, using=css selector}"
+      ],
+      "result": "[id: 0.10571926665803844-1, id: 0.10571926665803844-2, id: 0.10571926665803844-3, id: 0.10571926665803844-4, id: 0.10571926665803844-5, id: 0.10571926665803844-6, id: 0.10571926665803844-7, id: 0.10571926665803844-8, id: 0.10571926665803844-9, id: 0.10571926665803844-10, id: 0.10571926665803844-11, id: 0.10571926665803844-12, id: 0.10571926665803844-13, id: 0.10571926665803844-14, id: 0.10571926665803844-15, id: 0.10571926665803844-16, id: 0.10571926665803844-17, id: 0.10571926665803844-18, id: 0.10571926665803844-19, id: 0.10571926665803844-20, id: 0.10571926665803844-21, id: 0.10571926665803844-22, id: 0.10571926665803844-23, id: 0.10571926665803844-24, id: 0.10571926665803844-25, id: 0.10571926665803844-26, id: 0.10571926665803844-27, id: 0.10571926665803844-28, id: 0.10571926665803844-29, id: 0.10571926665803844-30, id: 0.10571926665803844-31, id: 0.10571926665803844-32, id: 0.10571926665803844-33, id: 0.10571926665803844-34, id: 0.10571926665803844-35, id: 0.10571926665803844-36, id: 0.10571926665803844-37, id: 0.10571926665803844-38, id: 0.10571926665803844-39, id: 0.10571926665803844-40, id: 0.10571926665803844-41, id: 0.10571926665803844-42, id: 0.10571926665803844-43, id: 0.10571926665803844-44, id: 0.10571926665803844-45, id: 0.10571926665803844-46, id: 0.10571926665803844-47, id: 0.10571926665803844-48, id: 0.10571926665803844-49, id: 0.10571926665803844-50, id: 0.10571926665803844-51, id: 0.10571926665803844-52, id: 0.10571926665803844-53, id: 0.10571926665803844-54, id: 0.10571926665803844-55, id: 0.10571926665803844-56]",
+      "subLogs": [],
+      "duration": 40
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.10571926665803844-1\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.10571926665803844-57",
+      "subLogs": [],
+      "duration": 41
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.10571926665803844-57\"}"
+      ],
+      "result": "getElementText:Apple iPad 32 GB 9.7 inch with Wi-Fi Only",
+      "subLogs": [],
+      "duration": 1015
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=._1UoZlX, using=css selector}"
+      ],
+      "result": "[id: 0.10571926665803844-1, id: 0.10571926665803844-2, id: 0.10571926665803844-3, id: 0.10571926665803844-4, id: 0.10571926665803844-5, id: 0.10571926665803844-6, id: 0.10571926665803844-7, id: 0.10571926665803844-8, id: 0.10571926665803844-9, id: 0.10571926665803844-10, id: 0.10571926665803844-11, id: 0.10571926665803844-12, id: 0.10571926665803844-13, id: 0.10571926665803844-14, id: 0.10571926665803844-15, id: 0.10571926665803844-16, id: 0.10571926665803844-17, id: 0.10571926665803844-18, id: 0.10571926665803844-19, id: 0.10571926665803844-20, id: 0.10571926665803844-21, id: 0.10571926665803844-22, id: 0.10571926665803844-23, id: 0.10571926665803844-24, id: 0.10571926665803844-25, id: 0.10571926665803844-26, id: 0.10571926665803844-27, id: 0.10571926665803844-28, id: 0.10571926665803844-29, id: 0.10571926665803844-30, id: 0.10571926665803844-31, id: 0.10571926665803844-32, id: 0.10571926665803844-33, id: 0.10571926665803844-34, id: 0.10571926665803844-35, id: 0.10571926665803844-36, id: 0.10571926665803844-37, id: 0.10571926665803844-38, id: 0.10571926665803844-39, id: 0.10571926665803844-40, id: 0.10571926665803844-41, id: 0.10571926665803844-42, id: 0.10571926665803844-43, id: 0.10571926665803844-44, id: 0.10571926665803844-45, id: 0.10571926665803844-46, id: 0.10571926665803844-47, id: 0.10571926665803844-48, id: 0.10571926665803844-49, id: 0.10571926665803844-50, id: 0.10571926665803844-51, id: 0.10571926665803844-52, id: 0.10571926665803844-53, id: 0.10571926665803844-54, id: 0.10571926665803844-55, id: 0.10571926665803844-56]",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.10571926665803844-1\",\"value\":\"._1vC4OE._2rQ-NK\"}"
+      ],
+      "result": "findChildElement:id: 0.10571926665803844-58",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: ._1vC4OE._2rQ-NK",
+        "{\"id\":\"0.10571926665803844-58\"}"
+      ],
+      "result": "getElementText:₹28,900",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=._1UoZlX, using=css selector}"
+      ],
+      "result": "[id: 0.10571926665803844-1, id: 0.10571926665803844-2, id: 0.10571926665803844-3, id: 0.10571926665803844-4, id: 0.10571926665803844-5, id: 0.10571926665803844-6, id: 0.10571926665803844-7, id: 0.10571926665803844-8, id: 0.10571926665803844-9, id: 0.10571926665803844-10, id: 0.10571926665803844-11, id: 0.10571926665803844-12, id: 0.10571926665803844-13, id: 0.10571926665803844-14, id: 0.10571926665803844-15, id: 0.10571926665803844-16, id: 0.10571926665803844-17, id: 0.10571926665803844-18, id: 0.10571926665803844-19, id: 0.10571926665803844-20, id: 0.10571926665803844-21, id: 0.10571926665803844-22, id: 0.10571926665803844-23, id: 0.10571926665803844-24, id: 0.10571926665803844-25, id: 0.10571926665803844-26, id: 0.10571926665803844-27, id: 0.10571926665803844-28, id: 0.10571926665803844-29, id: 0.10571926665803844-30, id: 0.10571926665803844-31, id: 0.10571926665803844-32, id: 0.10571926665803844-33, id: 0.10571926665803844-34, id: 0.10571926665803844-35, id: 0.10571926665803844-36, id: 0.10571926665803844-37, id: 0.10571926665803844-38, id: 0.10571926665803844-39, id: 0.10571926665803844-40, id: 0.10571926665803844-41, id: 0.10571926665803844-42, id: 0.10571926665803844-43, id: 0.10571926665803844-44, id: 0.10571926665803844-45, id: 0.10571926665803844-46, id: 0.10571926665803844-47, id: 0.10571926665803844-48, id: 0.10571926665803844-49, id: 0.10571926665803844-50, id: 0.10571926665803844-51, id: 0.10571926665803844-52, id: 0.10571926665803844-53, id: 0.10571926665803844-54, id: 0.10571926665803844-55, id: 0.10571926665803844-56]",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: ._1UoZlX",
+        "{\"using\":\"css selector\",\"id\":\"0.10571926665803844-1\",\"value\":\"._3wU53n\"}"
+      ],
+      "result": "findChildElement:id: 0.10571926665803844-57",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.cssSelector: ._3wU53n",
+        "{\"id\":\"0.10571926665803844-57\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 3625
+    },
+    {
+      "commandName": "getCurrentWindowHandle",
+      "args": [
+        "{}"
+      ],
+      "result": "CDwindow-52026f96-ec1f-48d5-8bc2-4f3ff14ecc77",
+      "subLogs": [],
+      "duration": 3
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=._2AkmmA._3Plo8Q._19RW-r, using=css selector}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"._2AkmmA._3Plo8Q._19RW-r\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 24 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir7604_5402}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: db884713a2ae628e5f2ff143480a1fad\n*** Element info: {Using=css selector, value=._2AkmmA._3Plo8Q._19RW-r}",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=._2AkmmA._3Plo8Q._19RW-r, using=css selector}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"._2AkmmA._3Plo8Q._19RW-r\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 18 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir7604_5402}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: db884713a2ae628e5f2ff143480a1fad\n*** Element info: {Using=css selector, value=._2AkmmA._3Plo8Q._19RW-r}",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=._2AkmmA._3Plo8Q._19RW-r, using=css selector}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"._2AkmmA._3Plo8Q._19RW-r\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 11 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir7604_5402}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: db884713a2ae628e5f2ff143480a1fad\n*** Element info: {Using=css selector, value=._2AkmmA._3Plo8Q._19RW-r}",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=._2AkmmA._3Plo8Q._19RW-r, using=css selector}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"._2AkmmA._3Plo8Q._19RW-r\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 30 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir7604_5402}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: db884713a2ae628e5f2ff143480a1fad\n*** Element info: {Using=css selector, value=._2AkmmA._3Plo8Q._19RW-r}",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=._2AkmmA._3Plo8Q._19RW-r, using=css selector}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"._2AkmmA._3Plo8Q._19RW-r\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 12 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir7604_5402}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: db884713a2ae628e5f2ff143480a1fad\n*** Element info: {Using=css selector, value=._2AkmmA._3Plo8Q._19RW-r}",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=._2AkmmA._3Plo8Q._19RW-r, using=css selector}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"._2AkmmA._3Plo8Q._19RW-r\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 12 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir7604_5402}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: db884713a2ae628e5f2ff143480a1fad\n*** Element info: {Using=css selector, value=._2AkmmA._3Plo8Q._19RW-r}",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=._2AkmmA._3Plo8Q._19RW-r, using=css selector}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"._2AkmmA._3Plo8Q._19RW-r\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 10 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir7604_5402}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: db884713a2ae628e5f2ff143480a1fad\n*** Element info: {Using=css selector, value=._2AkmmA._3Plo8Q._19RW-r}",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=._2AkmmA._3Plo8Q._19RW-r, using=css selector}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"._2AkmmA._3Plo8Q._19RW-r\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 20 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir7604_5402}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: db884713a2ae628e5f2ff143480a1fad\n*** Element info: {Using=css selector, value=._2AkmmA._3Plo8Q._19RW-r}",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=._2AkmmA._3Plo8Q._19RW-r, using=css selector}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"._2AkmmA._3Plo8Q._19RW-r\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 10 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir7604_5402}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: db884713a2ae628e5f2ff143480a1fad\n*** Element info: {Using=css selector, value=._2AkmmA._3Plo8Q._19RW-r}",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=._2AkmmA._3Plo8Q._19RW-r, using=css selector}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"._2AkmmA._3Plo8Q._19RW-r\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 11 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir7604_5402}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: db884713a2ae628e5f2ff143480a1fad\n*** Element info: {Using=css selector, value=._2AkmmA._3Plo8Q._19RW-r}",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=._2AkmmA._3Plo8Q._19RW-r, using=css selector}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"._2AkmmA._3Plo8Q._19RW-r\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 22 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir7604_5402}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: db884713a2ae628e5f2ff143480a1fad\n*** Element info: {Using=css selector, value=._2AkmmA._3Plo8Q._19RW-r}",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=._2AkmmA._3Plo8Q._19RW-r, using=css selector}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"._2AkmmA._3Plo8Q._19RW-r\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 18 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir7604_5402}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: db884713a2ae628e5f2ff143480a1fad\n*** Element info: {Using=css selector, value=._2AkmmA._3Plo8Q._19RW-r}",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=._2AkmmA._3Plo8Q._19RW-r, using=css selector}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"._2AkmmA._3Plo8Q._19RW-r\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 17 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir7604_5402}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: db884713a2ae628e5f2ff143480a1fad\n*** Element info: {Using=css selector, value=._2AkmmA._3Plo8Q._19RW-r}",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=._2AkmmA._3Plo8Q._19RW-r, using=css selector}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"._2AkmmA._3Plo8Q._19RW-r\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 15 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir7604_5402}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: db884713a2ae628e5f2ff143480a1fad\n*** Element info: {Using=css selector, value=._2AkmmA._3Plo8Q._19RW-r}",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=._2AkmmA._3Plo8Q._19RW-r, using=css selector}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"._2AkmmA._3Plo8Q._19RW-r\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 20 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir7604_5402}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: db884713a2ae628e5f2ff143480a1fad\n*** Element info: {Using=css selector, value=._2AkmmA._3Plo8Q._19RW-r}",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=._2AkmmA._3Plo8Q._19RW-r, using=css selector}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"._2AkmmA._3Plo8Q._19RW-r\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 10 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir7604_5402}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: db884713a2ae628e5f2ff143480a1fad\n*** Element info: {Using=css selector, value=._2AkmmA._3Plo8Q._19RW-r}",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=._2AkmmA._3Plo8Q._19RW-r, using=css selector}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"._2AkmmA._3Plo8Q._19RW-r\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 11 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir7604_5402}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: db884713a2ae628e5f2ff143480a1fad\n*** Element info: {Using=css selector, value=._2AkmmA._3Plo8Q._19RW-r}",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=._2AkmmA._3Plo8Q._19RW-r, using=css selector}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"._2AkmmA._3Plo8Q._19RW-r\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 10 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir7604_5402}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: db884713a2ae628e5f2ff143480a1fad\n*** Element info: {Using=css selector, value=._2AkmmA._3Plo8Q._19RW-r}",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=._2AkmmA._3Plo8Q._19RW-r, using=css selector}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"._2AkmmA._3Plo8Q._19RW-r\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 11 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir7604_5402}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: db884713a2ae628e5f2ff143480a1fad\n*** Element info: {Using=css selector, value=._2AkmmA._3Plo8Q._19RW-r}",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=._2AkmmA._3Plo8Q._19RW-r, using=css selector}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"._2AkmmA._3Plo8Q._19RW-r\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 11 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir7604_5402}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: db884713a2ae628e5f2ff143480a1fad\n*** Element info: {Using=css selector, value=._2AkmmA._3Plo8Q._19RW-r}",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=._2AkmmA._3Plo8Q._19RW-r, using=css selector}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"._2AkmmA._3Plo8Q._19RW-r\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 10 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir7604_5402}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: db884713a2ae628e5f2ff143480a1fad\n*** Element info: {Using=css selector, value=._2AkmmA._3Plo8Q._19RW-r}",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=._2AkmmA._3Plo8Q._19RW-r, using=css selector}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"._2AkmmA._3Plo8Q._19RW-r\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 10 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir7604_5402}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: db884713a2ae628e5f2ff143480a1fad\n*** Element info: {Using=css selector, value=._2AkmmA._3Plo8Q._19RW-r}",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=._2AkmmA._3Plo8Q._19RW-r, using=css selector}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"._2AkmmA._3Plo8Q._19RW-r\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 19 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir7604_5402}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: db884713a2ae628e5f2ff143480a1fad\n*** Element info: {Using=css selector, value=._2AkmmA._3Plo8Q._19RW-r}",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=._2AkmmA._3Plo8Q._19RW-r, using=css selector}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"._2AkmmA._3Plo8Q._19RW-r\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 16 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir7604_5402}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: db884713a2ae628e5f2ff143480a1fad\n*** Element info: {Using=css selector, value=._2AkmmA._3Plo8Q._19RW-r}",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=._2AkmmA._3Plo8Q._19RW-r, using=css selector}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"._2AkmmA._3Plo8Q._19RW-r\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 11 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir7604_5402}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: db884713a2ae628e5f2ff143480a1fad\n*** Element info: {Using=css selector, value=._2AkmmA._3Plo8Q._19RW-r}",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=._2AkmmA._3Plo8Q._19RW-r, using=css selector}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"._2AkmmA._3Plo8Q._19RW-r\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 10 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir7604_5402}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: db884713a2ae628e5f2ff143480a1fad\n*** Element info: {Using=css selector, value=._2AkmmA._3Plo8Q._19RW-r}",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=._2AkmmA._3Plo8Q._19RW-r, using=css selector}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"._2AkmmA._3Plo8Q._19RW-r\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 10 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir7604_5402}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: db884713a2ae628e5f2ff143480a1fad\n*** Element info: {Using=css selector, value=._2AkmmA._3Plo8Q._19RW-r}",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=._2AkmmA._3Plo8Q._19RW-r, using=css selector}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"._2AkmmA._3Plo8Q._19RW-r\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 11 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir7604_5402}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: db884713a2ae628e5f2ff143480a1fad\n*** Element info: {Using=css selector, value=._2AkmmA._3Plo8Q._19RW-r}",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=._2AkmmA._3Plo8Q._19RW-r, using=css selector}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"._2AkmmA._3Plo8Q._19RW-r\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 9 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir7604_5402}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: db884713a2ae628e5f2ff143480a1fad\n*** Element info: {Using=css selector, value=._2AkmmA._3Plo8Q._19RW-r}",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=._2AkmmA._3Plo8Q._19RW-r, using=css selector}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"._2AkmmA._3Plo8Q._19RW-r\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 11 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir7604_5402}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: db884713a2ae628e5f2ff143480a1fad\n*** Element info: {Using=css selector, value=._2AkmmA._3Plo8Q._19RW-r}",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=._2AkmmA._3Plo8Q._19RW-r, using=css selector}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"._2AkmmA._3Plo8Q._19RW-r\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 10 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir7604_5402}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: db884713a2ae628e5f2ff143480a1fad\n*** Element info: {Using=css selector, value=._2AkmmA._3Plo8Q._19RW-r}",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.cssSelector: ._2AkmmA._3Plo8Q._19RW-r",
+        "{\"id\":\"-1\"}"
+      ],
+      "result": "Timed out after 30 seconds waiting for presence of element located by: By.cssSelector: ._2AkmmA._3Plo8Q._19RW-r\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: driver.version: QAFExtendedWebDriver",
+      "subLogs": [],
+      "duration": -664643946
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "flipkarthomepage should display properly\nExpected: a string containing \"Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart\"\n     Actual: was \"Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart\"",
+      "type": "Pass",
+      "screenshot": "img/Testproductorderflow_1o7yqdinl4fyb52928.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple phone page shouldbe displayed properly\nExpected: a string containing \"Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart\"\n     Actual: was \"Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart\"",
+      "type": "Pass",
+      "screenshot": "img/Testproductorderflow_1ws6pby09hdcf52929.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Apple ipad page shouldbe displayed properly\nExpected: a string containing \"Apple Tablet/iPads - Buy Apple Tab Online at Best Prices In India | Flipkart.com\"\n     Actual: was \"Apple Tablet/iPads - Buy Apple Tab Online at Best Prices In India | Flipkart.com\"",
+      "type": "Pass",
+      "screenshot": "img/Testproductorderflow_1botl21cl1zfb52930.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "\nExpected: a value greater than &lt;0&gt;\n     Actual: &lt;56&gt; was greater than &lt;0&gt;",
+      "type": "Pass",
+      "screenshot": "img/Testproductorderflow_1hrrolosocdj452931.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Timed out after 30 seconds waiting for presence of element located by: By.cssSelector: ._2AkmmA._3Plo8Q._19RW-r\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: driver.version: QAFExtendedWebDriver",
+      "type": "Fail",
+      "screenshot": "img/Testproductorderflow_1mxnfpklb93ds52932.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for presence of element located by: By.cssSelector: ._2AkmmA._3Plo8Q._19RW-r\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: driver.version: QAFExtendedWebDriver\r\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.load(QAFExtendedWebDriver.java:203)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.load(QAFExtendedWebElement.java:253)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:208)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)\r\n\tat com.flipkartday2.Page.ProductdetailsTestPage.AddtoCartButton(ProductdetailsTestPage.java:60)\r\n\tat com.flipkartday2.Test.Productorder.Testproductorderflow(Productorder.java:28)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:714)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:741)\r\n\tat org.testng.TestRunner.run(TestRunner.java:595)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:334)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:240)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1149)\r\n\tat org.testng.TestNG.run(TestNG.java:1057)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)\r\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"._2AkmmA._3Plo8Q._19RW-r\"}\n  (Session info: chrome=58.0.3029.96)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 10 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\\Users\\RAJESW~1.ALL\\AppData\\Local\\Temp\\scoped_dir7604_5402}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: db884713a2ae628e5f2ff143480a1fad\n*** Element info: {Using=css selector, value=._2AkmmA._3Plo8Q._19RW-r}\r\n\tat sun.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:223)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElementByCssSelector(QAFExtendedWebDriver.java:351)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElementByCssSelector(QAFExtendedWebDriver.java:1)\r\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:158)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:1)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:899)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:178)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)\r\n\t... 30 more\r\n"
+}

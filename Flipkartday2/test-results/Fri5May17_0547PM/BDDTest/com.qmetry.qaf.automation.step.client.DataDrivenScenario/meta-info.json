@@ -1,0 +1,141 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "setupSuit",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1493986621435,
+      "duration": 14,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "setupTest",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1493986621464,
+      "duration": 1,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "OrderVerification",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1493986690748,
+      "duration": 0,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "OrderVerificationMbl",
+        "name": "OrderVerification",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1493986690760,
+      "duration": 0,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "SubcategoryName": "Apple",
+          "CategoryName": "Electronics",
+          "productCategory": "iPad"
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/Testdata.csv",
+        "description": "End to end Scenario",
+        "groups": [
+          "P1",
+          "P2",
+          "SMOKE"
+        ],
+        "lineNo": 20.0,
+        "name": "OrderVerification",
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "OrderVerificationybo",
+        "sign": "scenarios.suite1.bdd.OrderVerification( java.util.Map)[pri:1001, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]"
+      },
+      "dependsOn": [],
+      "startTime": 1493986690769,
+      "duration": 50790,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "OrderVerificationNqB",
+        "name": "OrderVerification",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1493986741784,
+      "duration": 0,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "afterTest",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1493986741832,
+      "duration": 8272,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "name": "afterSuit",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1493986751875,
+      "duration": 1,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

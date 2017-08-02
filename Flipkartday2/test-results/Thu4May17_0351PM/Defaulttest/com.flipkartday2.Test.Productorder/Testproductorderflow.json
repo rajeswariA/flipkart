@@ -1,0 +1,134 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "getCurrentWindowHandle",
+      "args": [
+        "{}"
+      ],
+      "result": "CDwindow-e15921b9-1fe6-40dc-aa8f-b21335489d94",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "get",
+      "args": [
+        "{url=https://www.flipkart.com/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 8195
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=a[title='Electronics'], using=css selector}"
+      ],
+      "result": "id: 0.8474960644398035-1",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "mouseMoveTo",
+      "args": [
+        "{element=0.8474960644398035-1}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 39
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//span[text()='Apple'], using=xpath}"
+      ],
+      "result": "[id: 0.8474960644398035-2]",
+      "subLogs": [],
+      "duration": 34
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//span[text()='Apple'], using=xpath}"
+      ],
+      "result": "id: 0.8474960644398035-2",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //span[text()='Apple']",
+        "{\"id\":\"0.8474960644398035-2\"}"
+      ],
+      "result": "isElementDisplayed:false",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//span[text()='Apple'], using=xpath}"
+      ],
+      "result": "[id: 0.8474960644398035-2]",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//span[text()='Apple'], using=xpath}"
+      ],
+      "result": "id: 0.8474960644398035-2",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //span[text()='Apple']",
+        "{\"id\":\"0.8474960644398035-2\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//span[text()='Apple'], using=xpath}"
+      ],
+      "result": "id: 0.8474960644398035-2",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //span[text()='Apple']",
+        "{\"id\":\"0.8474960644398035-2\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 124
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "\nExpected: equalToIgnoringCase(\"Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart\")\n     Actual: was flipkarthomepage should display properly",
+      "type": "Fail",
+      "screenshot": "img/Testproductorderflow_1mc4sh5zj3qw322584.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

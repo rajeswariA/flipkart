@@ -1,0 +1,3 @@
+mobilename.cart = {\"locator\":\"css=._3eAQiD\",\"desc\":\"mobile name\"}
+mobileprice.cart = {\"locator\":\"css=._1vC4OE._37U4_g\",\"desc\":\"mobile cost\"}
+add\ tocart = {\"locator\":\"css=._2AkmmA._3Plo8Q._19RW-r\",\"desc\":\"adding mobile into cart\"}

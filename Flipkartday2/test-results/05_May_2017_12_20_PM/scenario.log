@@ -1,0 +1,7 @@
+12:20:52 scenario.file.loc[Ljava.lang.String;@646d64ab
+12:20:52 loading BDD file: scenarios/suite1.bdd
+12:20:52 total test found: 1
+12:20:53 
+
+Executing scenario: FlipkartOrderVerification - flipkartverification with different products
+12:20:53 Competed scenario: FlipkartOrderVerification with status FAILURE

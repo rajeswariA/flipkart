@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="2" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given customer launches flipkart application</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When customer selects 'Apple' from 'Electronics' category</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then customer navigates to product category</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>flipkarthomepage should display properly
+Expected: a string containing "Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart"
+     Actual: was "Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart" <a href="img/FlipkartOrderVerification_14mh3qnlzovep35985.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And customer selects 'iPad' from product list</div><div  class="teststepfail"><span class="teststepfail-label">T </span>Then customer navigates to selectproduct page</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Apple phone page shouldbe displayed properly
+Expected: a string containing "Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart"
+     Actual: was "Apple Tablet/iPads - Buy Apple Tab Online at Best Prices In India | Flipkart.com" <a href="img/FlipkartOrderVerification_1i7hgf3shgdhz35986.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When customer selects '0' product from product list</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And customer verifies product details matching correctly</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;55&gt; was greater than &lt;0&gt; <a href="img/FlipkartOrderVerification_1qf4dxpnm55kt35987.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststepfail"><span class="teststepfail-label">T </span>When customer selects add to cart <a href="img/FlipkartOrderVerification_1xx46qoj6vwgx35988.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Timed out after 30 seconds: Wait time out for adding mobile into cart to be visible
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: driver.version: unknown</div></div><div  class="teststep"><span class="teststep-label">T </span>Then product has been added to cart</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given customer launches flipkart application</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When customer selects 'Apple' from 'Electronics' category</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then customer navigates to product category</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>flipkarthomepage should display properly
+Expected: a string containing "Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart"
+     Actual: was "Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart" <a href="img/FlipkartOrderVerification_1xx46qoj6vwgx35988.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And customer selects 'iPad' from product list</div><div  class="teststepfail"><span class="teststepfail-label">T </span>Then customer navigates to selectproduct page</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Apple phone page shouldbe displayed properly
+Expected: a string containing "Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart"
+     Actual: was "Apple Tablet/iPads - Buy Apple Tab Online at Best Prices In India | Flipkart.com" <a href="img/OrderVerification_1njy3wiznw59z35989.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When customer selects '0' product from product list</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And customer verifies product details matching correctly</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;55&gt; was greater than &lt;0&gt; <a href="img/OrderVerification_x5xmi4qqtylf35990.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststepfail"><span class="teststepfail-label">T </span>When customer selects add to cart <a href="img/OrderVerification_1r4bn7bfb8gdd35991.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Timed out after 30 seconds: Wait time out for adding mobile into cart to be visible
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: driver.version: unknown</div></div><div  class="teststep"><span class="teststep-label">T </span>Then product has been added to cart</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="QAS Demo" duration-ms="128646" started-at="2017-05-05T12:17:01Z" finished-at="2017-05-05T12:19:10Z">
+    <groups>
+      <group name="P1">
+        <method signature="scenarios.suite1.bdd.FlipkartOrderVerification()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" name="FlipkartOrderVerification" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+        <method signature="scenarios.suite1.bdd.OrderVerification( java.util.Map)[pri:1001, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" name="OrderVerification" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
+      </group> <!-- P1 -->
+      <group name="P2">
+        <method signature="scenarios.suite1.bdd.FlipkartOrderVerification()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" name="FlipkartOrderVerification" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+        <method signature="scenarios.suite1.bdd.OrderVerification( java.util.Map)[pri:1001, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" name="OrderVerification" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
+      </group> <!-- P2 -->
+      <group name="SMOKE">
+        <method signature="scenarios.suite1.bdd.FlipkartOrderVerification()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" name="FlipkartOrderVerification" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+        <method signature="scenarios.suite1.bdd.OrderVerification( java.util.Map)[pri:1001, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" name="OrderVerification" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
+      </group> <!-- SMOKE -->
+    </groups>
+    <test name="BDD Test" duration-ms="128646" started-at="2017-05-05T12:17:01Z" finished-at="2017-05-05T12:19:10Z">
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="FlipkartOrderVerification" name="setup" is-config="true" duration-ms="0" started-at="2017-05-05T17:47:01Z" finished-at="2017-05-05T17:47:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6a01e23]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="FlipkartOrderVerification" name="setupMethod" is-config="true" duration-ms="1" started-at="2017-05-05T17:47:01Z" finished-at="2017-05-05T17:47:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.Scenario.scenario()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6a01e23]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="FAIL" signature="FlipkartOrderVerification()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="FlipkartOrderVerification" name="FlipkartOrderVerification" duration-ms="68948" started-at="2017-05-05T17:47:01Z" description="flipkartverification with different products" finished-at="2017-05-05T17:48:10Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Timed out after 30 seconds: Wait time out for adding mobile into cart to be visible
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 30 seconds: Wait time out for adding mobile into cart to be visible
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+	at .When customer selects add to cart(scenarios/suite1.bdd:13)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.waitForVisible(QAFExtendedWebElement.java:447)
+	at com.flipkartday2.Page.ProductdetailsTestPage.AddtoCartButton(ProductdetailsTestPage.java:61)
+	at com.flipkartday2.StepsBackLog.customerSelectsAddToCart_aroundBody16(StepsBackLog.java:96)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:89)
+	at com.flipkartday2.StepsBackLog.customerSelectsAddToCart(StepsBackLog.java:95)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:129)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:148)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:109)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:151)
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:199)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given customer launches flipkart application</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When customer selects 'Apple' from 'Electronics' category</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then customer navigates to product category</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>flipkarthomepage should display properly
+Expected: a string containing "Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart"
+     Actual: was "Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart" <a href="img/FlipkartOrderVerification_14mh3qnlzovep35985.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And customer selects 'iPad' from product list</div><div  class="teststepfail"><span class="teststepfail-label">T </span>Then customer navigates to selectproduct page</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Apple phone page shouldbe displayed properly
+Expected: a string containing "Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart"
+     Actual: was "Apple Tablet/iPads - Buy Apple Tab Online at Best Prices In India | Flipkart.com" <a href="img/FlipkartOrderVerification_1i7hgf3shgdhz35986.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When customer selects '0' product from product list</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And customer verifies product details matching correctly</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;55&gt; was greater than &lt;0&gt; <a href="img/FlipkartOrderVerification_1qf4dxpnm55kt35987.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststepfail"><span class="teststepfail-label">T </span>When customer selects add to cart <a href="img/FlipkartOrderVerification_1xx46qoj6vwgx35988.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Timed out after 30 seconds: Wait time out for adding mobile into cart to be visible
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: driver.version: unknown</div></div><div  class="teststep"><span class="teststep-label">T </span>Then product has been added to cart</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FlipkartOrderVerification -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="FlipkartOrderVerification" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-05-05T17:48:10Z" finished-at="2017-05-05T17:48:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6a01e23]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=FlipkartOrderVerification status=FAILURE method=scenarios.suite1.bdd.FlipkartOrderVerification()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given customer launches flipkart application</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When customer selects 'Apple' from 'Electronics' category</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then customer navigates to product category</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>flipkarthomepage should display properly
+Expected: a string containing "Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart"
+     Actual: was "Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart" <a href="img/FlipkartOrderVerification_14mh3qnlzovep35985.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And customer selects 'iPad' from product list</div><div  class="teststepfail"><span class="teststepfail-label">T </span>Then customer navigates to selectproduct page</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Apple phone page shouldbe displayed properly
+Expected: a string containing "Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart"
+     Actual: was "Apple Tablet/iPads - Buy Apple Tab Online at Best Prices In India | Flipkart.com" <a href="img/FlipkartOrderVerification_1i7hgf3shgdhz35986.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When customer selects '0' product from product list</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And customer verifies product details matching correctly</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;55&gt; was greater than &lt;0&gt; <a href="img/FlipkartOrderVerification_1qf4dxpnm55kt35987.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststepfail"><span class="teststepfail-label">T </span>When customer selects add to cart <a href="img/FlipkartOrderVerification_1xx46qoj6vwgx35988.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Timed out after 30 seconds: Wait time out for adding mobile into cart to be visible
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: driver.version: unknown</div></div><div  class="teststep"><span class="teststep-label">T </span>Then product has been added to cart</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="FlipkartOrderVerification" name="afterClass" is-config="true" duration-ms="0" started-at="2017-05-05T17:48:10Z" finished-at="2017-05-05T17:48:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6a01e23]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+      <class name="com.qmetry.qaf.automation.step.client.DataDrivenScenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" name="setupSuit" is-config="true" duration-ms="14" started-at="2017-05-05T17:47:01Z" finished-at="2017-05-05T17:47:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6a01e23]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" name="setupTest" is-config="true" duration-ms="1" started-at="2017-05-05T17:47:01Z" finished-at="2017-05-05T17:47:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6a01e23]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="OrderVerification" name="setup" is-config="true" duration-ms="0" started-at="2017-05-05T17:48:10Z" finished-at="2017-05-05T17:48:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6a01e23]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="OrderVerification" name="setupMethod" is-config="true" duration-ms="0" started-at="2017-05-05T17:48:10Z" finished-at="2017-05-05T17:48:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6a01e23]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method name="OrderVerification" test-instance-name="OrderVerification" signature="OrderVerification( java.util.Map)[pri:1001, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" status="FAIL" duration-ms="50790" finished-at="2017-05-05T17:49:01Z" started-at="2017-05-05T17:48:10Z" data-provider="scenariodp" description="End to end Scenario">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{SubcategoryName=Apple, CategoryName=Electronics, productCategory=iPad}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Timed out after 30 seconds: Wait time out for adding mobile into cart to be visible
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 30 seconds: Wait time out for adding mobile into cart to be visible
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+	at .When customer selects add to cart(scenarios/suite1.bdd:30)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.waitForVisible(QAFExtendedWebElement.java:447)
+	at com.flipkartday2.Page.ProductdetailsTestPage.AddtoCartButton(ProductdetailsTestPage.java:61)
+	at com.flipkartday2.StepsBackLog.customerSelectsAddToCart_aroundBody16(StepsBackLog.java:96)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:89)
+	at com.flipkartday2.StepsBackLog.customerSelectsAddToCart(StepsBackLog.java:95)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:129)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:148)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:109)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:151)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:84)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given customer launches flipkart application</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When customer selects 'Apple' from 'Electronics' category</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then customer navigates to product category</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>flipkarthomepage should display properly
+Expected: a string containing "Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart"
+     Actual: was "Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart" <a href="img/FlipkartOrderVerification_1xx46qoj6vwgx35988.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And customer selects 'iPad' from product list</div><div  class="teststepfail"><span class="teststepfail-label">T </span>Then customer navigates to selectproduct page</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Apple phone page shouldbe displayed properly
+Expected: a string containing "Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart"
+     Actual: was "Apple Tablet/iPads - Buy Apple Tab Online at Best Prices In India | Flipkart.com" <a href="img/OrderVerification_1njy3wiznw59z35989.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When customer selects '0' product from product list</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And customer verifies product details matching correctly</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;55&gt; was greater than &lt;0&gt; <a href="img/OrderVerification_x5xmi4qqtylf35990.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststepfail"><span class="teststepfail-label">T </span>When customer selects add to cart <a href="img/OrderVerification_1r4bn7bfb8gdd35991.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Timed out after 30 seconds: Wait time out for adding mobile into cart to be visible
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: driver.version: unknown</div></div><div  class="teststep"><span class="teststep-label">T </span>Then product has been added to cart</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OrderVerification -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="OrderVerification" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-05-05T17:49:01Z" finished-at="2017-05-05T17:49:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6a01e23]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=OrderVerification status=FAILURE method=scenarios.suite1.bdd.OrderVerification( java.util.Map)[pri:1001, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given customer launches flipkart application</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When customer selects 'Apple' from 'Electronics' category</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then customer navigates to product category</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>flipkarthomepage should display properly
+Expected: a string containing "Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart"
+     Actual: was "Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart" <a href="img/FlipkartOrderVerification_1xx46qoj6vwgx35988.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And customer selects 'iPad' from product list</div><div  class="teststepfail"><span class="teststepfail-label">T </span>Then customer navigates to selectproduct page</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Apple phone page shouldbe displayed properly
+Expected: a string containing "Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart"
+     Actual: was "Apple Tablet/iPads - Buy Apple Tab Online at Best Prices In India | Flipkart.com" <a href="img/OrderVerification_1njy3wiznw59z35989.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When customer selects '0' product from product list</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And customer verifies product details matching correctly</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;55&gt; was greater than &lt;0&gt; <a href="img/OrderVerification_x5xmi4qqtylf35990.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststepfail"><span class="teststepfail-label">T </span>When customer selects add to cart <a href="img/OrderVerification_1r4bn7bfb8gdd35991.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Timed out after 30 seconds: Wait time out for adding mobile into cart to be visible
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: driver.version: unknown</div></div><div  class="teststep"><span class="teststep-label">T </span>Then product has been added to cart</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" name="afterTest" is-config="true" duration-ms="8272" started-at="2017-05-05T17:49:01Z" finished-at="2017-05-05T17:49:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6a01e23]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" name="afterSuit" is-config="true" duration-ms="1" started-at="2017-05-05T17:49:11Z" finished-at="2017-05-05T17:49:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6a01e23]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.DataDrivenScenario -->
+    </test> <!-- BDD Test -->
+  </suite> <!-- QAS Demo -->
+</testng-results>

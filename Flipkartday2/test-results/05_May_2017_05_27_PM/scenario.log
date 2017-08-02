@@ -1,0 +1,70 @@
+17:27:28 scenario.file.loc[Ljava.lang.String;@646d64ab
+17:27:28 loading BDD file: scenarios/suite1.bdd
+17:27:28 total test found: 1
+17:27:29 
+
+Executing scenario: FlipkartOrderVerification - flipkartverification with different products
+17:27:29 Invoking Teststep: Given customer launches flipkart application
+17:27:39 Completed Teststep: Given customer launches flipkart application
+17:27:39 Invoking Teststep: When customer selects 'Apple' from 'Electronics' category with arguments: [Apple, Electronics]
+17:27:41 Completed Teststep: When customer selects 'Apple' from 'Electronics' category with arguments: [Apple, Electronics]
+17:27:41 Invoking Teststep: Then customer navigates to product category
+17:27:41 Completed Teststep: Then customer navigates to product category
+17:27:41 Invoking Teststep: And customer selects 'iPad' from product list with arguments: [iPad]
+17:27:48 Completed Teststep: And customer selects 'iPad' from product list with arguments: [iPad]
+17:27:48 Invoking Teststep: Then customer navigates to selectproduct page
+17:27:48 Completed Teststep: Then customer navigates to selectproduct page
+17:27:48 Invoking Teststep: When customer selects '0' product from product list with arguments: [0]
+17:27:52 Completed Teststep: When customer selects '0' product from product list with arguments: [0]
+17:27:52 Invoking Teststep: And customer verifies product details matching correctly
+17:27:59 Completed Teststep: And customer verifies product details matching correctly
+17:27:59 Invoking Teststep: When customer selects add to cart
+17:28:29 Failure Teststep: When customer selects add to cart
+org.openqa.selenium.TimeoutException: Timed out after 30 seconds: Wait time out for adding mobile into cart to be visible
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.waitForVisible(QAFExtendedWebElement.java:447)
+	at com.flipkartday2.Page.ProductdetailsTestPage.AddtoCartButton(ProductdetailsTestPage.java:61)
+	at com.flipkartday2.StepsBackLog.customerSelectsAddToCart_aroundBody14(StepsBackLog.java:89)
+	at com.flipkartday2.StepsBackLog$AjcClosure15.run(StepsBackLog.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:89)
+	at com.flipkartday2.StepsBackLog.customerSelectsAddToCart(StepsBackLog.java:88)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:129)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:148)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:109)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:151)
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:595)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+17:28:29 Completed Teststep: When customer selects add to cart
+17:28:29 Competed scenario: FlipkartOrderVerification with status FAILURE

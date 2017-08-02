@@ -1,0 +1,34 @@
+
+
+SCENARIO: FlipkartOrderVerification
+META-DATA: {"description":"flipkartverification with different products","groups":["P1","P2","SMOKE"]}
+	
+	Given customer launches flipkart application
+	When customer selects 'Apple' from 'Electronics' category
+	Then customer navigates to product category
+	And customer selects 'iPad' from product list
+	Then customer navigates to selectproduct page
+	When customer selects '0' product from product list
+	And customer verifies product details matching correctly
+	When customer selects add to cart
+	Then product has been added to cart
+	
+END
+
+
+
+SCENARIO: OrderVerification
+META-DATA: {"description":"End to end Scenario","groups":["P1","P2","SMOKE"],"dataFile":"resources/Testdata.csv"}
+	
+	Given customer launches flipkart application
+	When customer selects '${SubcategoryName}' from '${CategoryName}' category
+	Then customer navigates to product category
+	And customer selects '${productCategory}' from product list
+	Then customer navigates to selectproduct page
+	When customer selects '0' product from product list
+	And customer verifies product details matching correctly
+	When customer selects add to cart
+	Then product has been added to cart
+	
+END
+

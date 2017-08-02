@@ -1,0 +1,191 @@
+<html>
+<head>
+<title>TestNG:  BDD Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>BDD Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri May 05 17:47:01 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>128 seconds (128646 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.Scenario.FlipkartOrderVerification()'><b>FlipkartOrderVerification</b><br>Test class: com.qmetry.qaf.automation.step.client.Scenario (FlipkartOrderVerification)<br>Test method: flipkartverification with different products<br/>
+<a href="#Output-211973922" onClick='toggleBox("Output-211973922", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-211973922" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-211973922">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given customer launches flipkart application</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When customer selects 'Apple' from 'Electronics' category</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then customer navigates to product category</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>flipkarthomepage should display properly
+Expected: a string containing "Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart"
+     Actual: was "Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart" <a href="img/FlipkartOrderVerification_14mh3qnlzovep35985.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And customer selects 'iPad' from product list</div><div  class="teststepfail"><span class="teststepfail-label">T </span>Then customer navigates to selectproduct page</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Apple phone page shouldbe displayed properly
+Expected: a string containing "Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart"
+     Actual: was "Apple Tablet/iPads - Buy Apple Tab Online at Best Prices In India | Flipkart.com" <a href="img/FlipkartOrderVerification_1i7hgf3shgdhz35986.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When customer selects '0' product from product list</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And customer verifies product details matching correctly</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;55&gt; was greater than &lt;0&gt; <a href="img/FlipkartOrderVerification_1qf4dxpnm55kt35987.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststepfail"><span class="teststepfail-label">T </span>When customer selects add to cart <a href="img/FlipkartOrderVerification_1xx46qoj6vwgx35988.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Timed out after 30 seconds: Wait time out for adding mobile into cart to be visible
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: driver.version: unknown</div></div><div  class="teststep"><span class="teststep-label">T </span>Then product has been added to cart</div></div><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Timed out after 30 seconds: Wait time out for adding mobile into cart to be visible
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;ICPL11484&apos;, ip: &apos;10.11.30.153&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: unknown
+	at .When customer selects add to cart(scenarios/suite1.bdd:13)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.waitForVisible(QAFExtendedWebElement.java:447)
+	at com.flipkartday2.Page.ProductdetailsTestPage.AddtoCartButton(ProductdetailsTestPage.java:61)
+	at com.flipkartday2.StepsBackLog.customerSelectsAddToCart_aroundBody16(StepsBackLog.java:96)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:89)
+	at com.flipkartday2.StepsBackLog.customerSelectsAddToCart(StepsBackLog.java:95)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:129)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:148)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:109)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:151)
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:199)
+</pre></div><a href='#' onClick='toggleBox("stack-trace211973922", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace211973922'><pre>org.openqa.selenium.TimeoutException: Timed out after 30 seconds: Wait time out for adding mobile into cart to be visible
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;ICPL11484&apos;, ip: &apos;10.11.30.153&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: unknown
+	at .When customer selects add to cart(scenarios/suite1.bdd:13)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.waitForVisible(QAFExtendedWebElement.java:447)
+	at com.flipkartday2.Page.ProductdetailsTestPage.AddtoCartButton(ProductdetailsTestPage.java:61)
+	at com.flipkartday2.StepsBackLog.customerSelectsAddToCart_aroundBody16(StepsBackLog.java:96)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:89)
+	at com.flipkartday2.StepsBackLog.customerSelectsAddToCart(StepsBackLog.java:95)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:129)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:148)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:109)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:151)
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:199)
+</pre></div></td>
+<td>68</td>
+<td>com.qmetry.qaf.automation.step.client.Scenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.OrderVerification()'><b>OrderVerification</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (OrderVerification)<br>Test method: End to end Scenario<br>Parameters: {SubcategoryName=Apple, CategoryName=Electronics, productCategory=iPad}<br/>
+<a href="#Output-1919576980" onClick='toggleBox("Output-1919576980", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1919576980" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1919576980">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given customer launches flipkart application</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When customer selects 'Apple' from 'Electronics' category</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then customer navigates to product category</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>flipkarthomepage should display properly
+Expected: a string containing "Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart"
+     Actual: was "Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart" <a href="img/FlipkartOrderVerification_1xx46qoj6vwgx35988.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And customer selects 'iPad' from product list</div><div  class="teststepfail"><span class="teststepfail-label">T </span>Then customer navigates to selectproduct page</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Apple phone page shouldbe displayed properly
+Expected: a string containing "Online Shopping Site for Mobiles,Fashion,Books,Electronics,Home Appliances & More @ Flipkart"
+     Actual: was "Apple Tablet/iPads - Buy Apple Tab Online at Best Prices In India | Flipkart.com" <a href="img/OrderVerification_1njy3wiznw59z35989.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When customer selects '0' product from product list</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And customer verifies product details matching correctly</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;55&gt; was greater than &lt;0&gt; <a href="img/OrderVerification_x5xmi4qqtylf35990.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststepfail"><span class="teststepfail-label">T </span>When customer selects add to cart <a href="img/OrderVerification_1r4bn7bfb8gdd35991.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Timed out after 30 seconds: Wait time out for adding mobile into cart to be visible
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ICPL11484', ip: '10.11.30.153', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: driver.version: unknown</div></div><div  class="teststep"><span class="teststep-label">T </span>Then product has been added to cart</div></div><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Timed out after 30 seconds: Wait time out for adding mobile into cart to be visible
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;ICPL11484&apos;, ip: &apos;10.11.30.153&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: unknown
+	at .When customer selects add to cart(scenarios/suite1.bdd:30)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.waitForVisible(QAFExtendedWebElement.java:447)
+	at com.flipkartday2.Page.ProductdetailsTestPage.AddtoCartButton(ProductdetailsTestPage.java:61)
+	at com.flipkartday2.StepsBackLog.customerSelectsAddToCart_aroundBody16(StepsBackLog.java:96)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:89)
+	at com.flipkartday2.StepsBackLog.customerSelectsAddToCart(StepsBackLog.java:95)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:129)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:148)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:109)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:151)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:84)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1919576980", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1919576980'><pre>org.openqa.selenium.TimeoutException: Timed out after 30 seconds: Wait time out for adding mobile into cart to be visible
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;ICPL11484&apos;, ip: &apos;10.11.30.153&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: unknown
+	at .When customer selects add to cart(scenarios/suite1.bdd:30)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.waitForVisible(QAFExtendedWebElement.java:447)
+	at com.flipkartday2.Page.ProductdetailsTestPage.AddtoCartButton(ProductdetailsTestPage.java:61)
+	at com.flipkartday2.StepsBackLog.customerSelectsAddToCart_aroundBody16(StepsBackLog.java:96)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:89)
+	at com.flipkartday2.StepsBackLog.customerSelectsAddToCart(StepsBackLog.java:95)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:129)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:148)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:109)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:151)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:84)
+</pre></div></td>
+<td>50</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9</td></tr>
+</table><p>
+</body>
+</html>
